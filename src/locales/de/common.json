@@ -1,6 +1,161 @@
 {
     "nav": {
         "home": "Startseite",
-        "experiences": "Erlebnisse"
+        "experiences": "Erlebnisse",
+        "vehicle": "Fahrzeug",
+        "contact": "Kontakt"
+    },
+    "hero": {
+        "title": "Entdecken Sie die Schweiz",
+        "title-secondary": "in vollkommenem Komfort",
+        "text": "Private Mercedes-Benz Chauffeur-Erlebnisse in Zürich, Luzern und den Schweizer Alpen.",
+        "btn-book": "Ihr Erlebnis buchen",
+        "btn-explore": "Touren entdecken"
+    },
+    "premium_experience": {
+        "eyebrow": "Das Erlebnis",
+        "title": "Ein Premium-Erlebnis",
+        "features": [
+            {
+                "icon": "shield",
+                "title": "Privater Chauffeur",
+                "description": "Professioneller, diskreter Chauffeurservice mit absoluter Vertraulichkeit und persönlicher Betreuung."
+            },
+            {
+                "icon": "star",
+                "title": "Luxusfahrzeug",
+                "description": "Erstklassiger Mercedes-Benz Komfort — klimatisierter Innenraum, makellose Pflege und stets pünktliche Ankunft."
+            },
+            {
+                "icon": "briefcase",
+                "title": "Individuelle Reise",
+                "description": "Flexible Routenplanung, die vollständig auf Ihren Zeitplan, Ihr Tempo und Ihre persönlichen Wünsche abgestimmt ist."
+            }
+        ]
+    },
+    "featured_experiences": {
+        "eyebrow": "Ausgewählte Erlebnisse",
+        "title": "Exklusive Schweizer Reisen",
+        "view_all": "Alle Erlebnisse ansehen",
+        "view_experience": "Erlebnis ansehen",
+        "from": "ab"
+    },
+    "vehicle": {
+        "eyebrow": "Das Fahrzeug",
+        "title": "Der Komfort eines",
+        "title_accent": "privaten Mercedes-Benz",
+        "description": "Jede Fahrt erfolgt in einer sorgfältig gepflegten Mercedes-Benz E-Klasse oder S-Klasse — dem Höhepunkt automobiler Eleganz und Komfort.",
+        "features": [
+            "Premium-Nappa-Lederausstattung",
+            "Geräumiger Innenraum für 4 Passagiere",
+            "Zweizonen-Klimaautomatik",
+            "Verfügbare Trennscheibe für maximale Privatsphäre",
+            "Mineralwasser & Erfrischungen",
+            "Professioneller Service jederzeit"
+        ],
+        "cta": {
+            "label": "Fahrzeug entdecken",
+            "link": "/vehicle"
+        }
+    },
+    "why_choose_us": {
+        "eyebrow": "Warum wir",
+        "title": "Der Unterschied liegt im Detail",
+        "features": [
+            {
+                "title": "Schweizer Qualität",
+                "description": "Präzision, Pünktlichkeit und höchste Standards — ganz nach Schweizer Art."
+            },
+            {
+                "title": "Luxuriöser Komfort",
+                "description": "Erstklassiges Reisen in einer Premium Mercedes-Benz Limousine."
+            },
+            {
+                "title": "Erfahrener Chauffeur",
+                "description": "Mehrsprachiger Profi mit umfassender lokaler Kenntnis der Schweiz."
+            },
+            {
+                "title": "Persönliche Betreuung",
+                "description": "Jedes Detail wird individuell an Ihre Wünsche und Ihren Zeitplan angepasst."
+            }
+        ]
+    },
+    "reserve_cta": {
+        "eyebrow": "Reservieren Sie Ihre Reise",
+        "title": "Ihre private",
+        "title_accent": "Schweizer Reise",
+        "title_end": "beginnt hier",
+        "description": "Reservieren Sie Ihren Termin und lassen Sie uns ein unvergessliches Schweizer Erlebnis gestalten, das vollständig auf Sie zugeschnitten ist.",
+        "cta": {
+            "label": "Ihr Erlebnis buchen",
+            "link": "#"
+        }
+    },
+    "faqs": {
+        "eyebrow": "FAQs",
+        "title": "Häufig gestellte Fragen",
+        "items": [
+            {
+                "question": "Welche Regionen decken Sie ab?",
+                "answer": "Wir bieten private Chauffeurservices in Zürich, Luzern und der gesamten Schweizer Alpenregion an, einschließlich individueller Tagesausflüge zu umliegenden Seen und Bergen auf Anfrage."
+            },
+            {
+                "question": "Mit welchem Fahrzeug reise ich?",
+                "answer": "Alle Fahrten erfolgen in einer sorgfältig gepflegten Mercedes-Benz E-Klasse oder S-Klasse mit hochwertiger Nappa-Lederausstattung, Zweizonen-Klimaautomatik und einem geräumigen Innenraum für vier Passagiere."
+            },
+            {
+                "question": "Kann ich meine Route individuell gestalten?",
+                "answer": "Selbstverständlich. Jedes Erlebnis ist vollständig flexibel und kann an Ihren Zeitplan, Ihr Tempo und Ihre persönlichen Wünsche angepasst werden — teilen Sie uns einfach mit, welche Orte und Aktivitäten Sie einbeziehen möchten."
+            },
+            {
+                "question": "Wie früh sollte ich buchen?",
+                "answer": "Wir empfehlen eine Buchung mindestens 48 Stunden im Voraus, um die Verfügbarkeit zu garantieren. Wir bemühen uns jedoch auch, kurzfristige Anfragen nach Möglichkeit zu berücksichtigen."
+            },
+            {
+                "question": "Ist das Trinkgeld im Preis enthalten?",
+                "answer": "Ja, alle Preise sind vollständig inklusive und enthalten keine versteckten Gebühren. Ein Trinkgeld für Ihren Chauffeur ist freiwillig und liegt ganz in Ihrem Ermessen."
+            },
+            {
+                "question": "Kann ich auch nur einen einfachen Transfer buchen?",
+                "answer": "Ja, neben unseren privaten Tageserlebnissen bieten wir auch einfache Transfers und Fahrten von Punkt zu Punkt an. Kontaktieren Sie uns für ein individuelles Angebot."
+            }
+        ]
+    },
+    "footer": {
+        "logo_text": "PRIVATE CHAUFFEUR",
+        "logo_subtext": "SCHWEIZ",
+        "tagline": "Private Mercedes-Benz Chauffeur-Erlebnisse in Zürich, Luzern und den Schweizer Alpen.",
+        "navigation": {
+            "title": "Navigation",
+            "links": [
+                {
+                    "label": "Startseite",
+                    "url": "/"
+                },
+                {
+                    "label": "Erlebnisse",
+                    "url": "/experiences"
+                },
+                {
+                    "label": "Fahrzeug",
+                    "url": "/vehicle"
+                },
+                {
+                    "label": "Über uns",
+                    "url": "/about"
+                },
+                {
+                    "label": "Kontakt",
+                    "url": "/contact"
+                }
+            ]
+        },
+        "contacts": {
+            "title": "Kontakt",
+            "phone": "+49 76 767 76 76",
+            "email": "info@private.chauffeur",
+            "whatsapp": "WhatsApp"
+        },
+        "copyright": "Copyright Private Chauffeur"
     }
 }

@@ -34,8 +34,7 @@ export const HeroSection = () => {
                         </h1>
 
                         <p className='text-base text-neutral-300 sm:text-lg'>
-                            Private Mercedes-Benz chauffeur experiences across
-                            Zurich, Lucerne and the Swiss Alps.
+                            {t('hero.text')}
                         </p>
 
                         <div className='flex flex-col gap-3 pt-2 text-white sm:flex-row sm:gap-5'>

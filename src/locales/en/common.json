@@ -1,0 +1,161 @@
+{
+    "nav": {
+        "home": "Home",
+        "experiences": "Experiences",
+        "vehicle": "Vehicle",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Discover Switzerland",
+        "title-secondary": "in Complete Comfort",
+        "text": "Private Mercedes-Benz chauffeur experiences across Zurich, Lucerne and the Swiss Alps.",
+        "btn-book": "Book Your Experience",
+        "btn-explore": "Explore Tours"
+    },
+    "premium_experience": {
+        "eyebrow": "The Experience",
+        "title": "A Premium Experience",
+        "features": [
+            {
+                "icon": "shield",
+                "title": "Private Driver",
+                "description": "Professional, discreet chauffeur service with complete confidentiality and personal attention."
+            },
+            {
+                "icon": "star",
+                "title": "Luxury Vehicle",
+                "description": "Premium Mercedes-Benz comfort — climate controlled, immaculately maintained, always on time."
+            },
+            {
+                "icon": "briefcase",
+                "title": "Personalized Journey",
+                "description": "Flexible itineraries designed entirely around your schedule, pace and preferences."
+            }
+        ]
+    },
+    "featured_experiences": {
+        "eyebrow": "Featured Experiences",
+        "title": "Curated Swiss Journeys",
+        "view_all": "View All Experiences",
+        "view_experience": "View Experience",
+        "from": "from"
+    },
+    "vehicle": {
+        "eyebrow": "The Vehicle",
+        "title": "The Comfort of a",
+        "title_accent": "Private Mercedes-Benz",
+        "description": "Every journey is made in a meticulously maintained Mercedes-Benz E-Class or S-Class — the pinnacle of automotive refinement.",
+        "features": [
+            "Premium Nappa Leather Interior",
+            "Spacious 4-Passenger Cabin",
+            "Dual-Zone Climate Control",
+            "Privacy Partition Available",
+            "Mineral Water & Refreshments",
+            "Professional Service Always"
+        ],
+        "cta": {
+            "label": "Explore the Vehicle",
+            "link": "/vehicle"
+        }
+    },
+    "why_choose_us": {
+        "eyebrow": "Why Choose Us",
+        "title": "The Difference is in the Detail",
+        "features": [
+            {
+                "title": "Swiss Quality",
+                "description": "Precision, punctuality and impeccable standards — the Swiss way."
+            },
+            {
+                "title": "Luxury Comfort",
+                "description": "First-class travel in a premium Mercedes-Benz sedan."
+            },
+            {
+                "title": "Expert Chauffeur",
+                "description": "Multilingual professional with deep local knowledge."
+            },
+            {
+                "title": "Personal Attention",
+                "description": "Every detail tailored to your preferences and schedule."
+            }
+        ]
+    },
+    "reserve_cta": {
+        "eyebrow": "Reserve Your Journey",
+        "title": "Your Private",
+        "title_accent": "Swiss Journey",
+        "title_end": "Starts Here",
+        "description": "Reserve your date and let us design an unforgettable Swiss experience entirely around you.",
+        "cta": {
+            "label": "Book Your Experience",
+            "link": "#"
+        }
+    },
+    "faqs": {
+        "eyebrow": "Faqs",
+        "title": "Frequently Asked Questions",
+        "items": [
+            {
+                "question": "What areas do you cover?",
+                "answer": "We provide private chauffeur services across Zurich, Lucerne and the wider Swiss Alps region, including custom day trips to surrounding lakes and mountains upon request."
+            },
+            {
+                "question": "What type of vehicle will I be traveling in?",
+                "answer": "All journeys are made in a meticulously maintained Mercedes-Benz E-Class or S-Class, featuring premium Nappa leather interiors, dual-zone climate control and a spacious four-passenger cabin."
+            },
+            {
+                "question": "Can I customize my itinerary?",
+                "answer": "Absolutely. Every experience is fully flexible and can be tailored to your schedule, pace and personal preferences — simply let us know what you'd like to include."
+            },
+            {
+                "question": "How far in advance should I book?",
+                "answer": "We recommend booking at least 48 hours in advance to guarantee availability, though we do our best to accommodate last-minute requests whenever possible."
+            },
+            {
+                "question": "Is gratuity included in the price?",
+                "answer": "Yes, all prices are fully inclusive with no hidden fees. Gratuity for your chauffeur is entirely optional and at your discretion."
+            },
+            {
+                "question": "Can I book a one-way transfer instead of a full-day experience?",
+                "answer": "Yes, one-way and point-to-point transfers are available in addition to our full-day private experiences. Contact us for a custom quote."
+            }
+        ]
+    },
+    "footer": {
+        "logo_text": "PRIVATE CHAUFFEUR",
+        "logo_subtext": "SWITZERLAND",
+        "tagline": "Private Mercedes-Benz chauffeur experiences across Zurich, Lucerne and the Swiss Alps.",
+        "navigation": {
+            "title": "Navigation",
+            "links": [
+                {
+                    "label": "Home",
+                    "url": "/"
+                },
+                {
+                    "label": "Experiences",
+                    "url": "/experiences"
+                },
+                {
+                    "label": "Vehicle",
+                    "url": "/vehicle"
+                },
+                {
+                    "label": "About",
+                    "url": "/about"
+                },
+                {
+                    "label": "Contact",
+                    "url": "/contact"
+                }
+            ]
+        },
+        "contacts": {
+            "title": "Contacts",
+            "phone": "+49 76 767 76 76",
+            "email": "info@private.chauffeur",
+            "whatsapp": "WhatsApp"
+        },
+        "copyright": "Copyright Private Chauffeur"
+    }
+}

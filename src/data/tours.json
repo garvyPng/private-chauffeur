@@ -1,0 +1,52 @@
+{
+    "zurich": {
+        "id": "zurich",
+        "show": true,
+        "order": 1,
+        "slug": "zurich-private-experience",
+        "image": "/images/tours/zurich.png",
+        "price_from": "CHF 1000",
+        "duration_hours": 8,
+        "passengers_max": 2
+    },
+    "lucerne": {
+        "id": "lucerne",
+        "show": true,
+        "order": 2,
+        "slug": "lucerne-private-experience",
+        "image": "/images/tours/lucerne.png",
+        "price_from": "CHF 1000",
+        "duration_hours": 8,
+        "passengers_max": 2
+    },
+    "lake_lucerne_scenic_drive": {
+        "id": "lake_lucerne_scenic_drive",
+        "show": true,
+        "order": 3,
+        "slug": "lake-lucerne-scenic-drive",
+        "image": "/images/tours/lake-lucerne.jpg",
+        "price_from": "CHF 1000",
+        "duration_hours": 8,
+        "passengers_max": 2
+    },
+    "mount_pilatus": {
+        "id": "mount_pilatus",
+        "show": true,
+        "order": 4,
+        "slug": "mount-pilatus-experience",
+        "image": "/images/tours/pilatus.jpg",
+        "price_from": "CHF 1000",
+        "duration_hours": 8,
+        "passengers_max": 2
+    },
+    "mount_rigi": {
+        "id": "mount_rigi",
+        "show": true,
+        "order": 5,
+        "slug": "mount-rigi-experience",
+        "image": "/images/tours/rigi.jpg",
+        "price_from": "CHF 1000",
+        "duration_hours": 8,
+        "passengers_max": 2
+    }
+}

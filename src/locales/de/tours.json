@@ -1,0 +1,264 @@
+{
+    "zurich": {
+        "title": "Zurich Private Experience",
+        "description": "A full-day immersion into Switzerland's most cosmopolitan city — old town, lakeside promenade, scenic viewpoints and hidden gems, all at your own pace.",
+        "overview": "Experience Zurich with your own private chauffeur for the entire day. Whether you're visiting for leisure or business, your driver remains at your disposal, allowing you to travel comfortably and without time pressure.",
+        "route_description": "A carefully designed itinerary featuring the most iconic locations and hidden gems of the region. Enjoy a seamless journey through breathtaking landscapes, historic landmarks and unforgettable viewpoints, while your private chauffeur takes care of every detail.",
+        "route": [
+            {
+                "time": "9:00",
+                "location": "Hotel pickup — Zurich city centre"
+            },
+            {
+                "time": "10:00",
+                "location": "Zürich Altstadt (Old Town) — Grossmünster, Lindenhügel"
+            },
+            {
+                "time": "18:00",
+                "location": "Return to hotel"
+            }
+        ],
+        "pickup_options": [
+            "Zurich Airport",
+            "Hotel",
+            "Private Address"
+        ],
+        "price_from": "CHF 1000",
+        "duration": "Full Day",
+        "duration_hours_text": "8-9 hrs",
+        "passengers": "1-4 passengers"
+    },
+    "lucerne": {
+        "title": "Lucerne Private Experience",
+        "description": "Experience the timeless charm of Lucerne — the iconic Chapel Bridge, the shimmering lake and Alpine views.",
+        "overview": "Experience the timeless charm of Lucerne — the iconic Chapel Bridge, the shimmering lake, Mount Pilatus views and medieval old town architecture.",
+        "route_description": "A refined day in Lucerne, tailored around iconic landmarks, exclusive leisure time and effortless comfort — with your private chauffeur attending to every detail along the way.",
+        "route": [
+            {
+                "time": "9:00",
+                "title": "VIP Pickup",
+                "description": "A seamless pickup at your Lucerne hotel, or a private transfer from Zurich."
+            },
+            {
+                "time": "10:00",
+                "title": "Old Town & Chapel Bridge",
+                "description": "A leisurely walk past the iconic Chapel Bridge and the historic Musegg Wall."
+            },
+            {
+                "time": "11:00",
+                "title": "Meetings / Leisure",
+                "description": "Flexible time at your disposal — for private business, fine galleries, or a quiet lakeside walk."
+            },
+            {
+                "time": "13:00",
+                "title": "Lakeside Lunch",
+                "description": "An exquisite lunch at a premium lake-view restaurant in Lucerne."
+            },
+            {
+                "time": "14:30",
+                "title": "Watch Shopping",
+                "description": "Indulge in premium watch shopping at the renowned Schwanenplatz."
+            },
+            {
+                "time": "16:00",
+                "title": "Scenic Drive",
+                "description": "A panoramic drive up to Bürgenstock, or along the shores of the lake."
+            },
+            {
+                "time": "17:00",
+                "title": "Return",
+                "description": "A relaxed drive back, accompanied by complimentary refreshments."
+            },
+            {
+                "time": "18:00",
+                "title": "VIP Drop-off",
+                "description": "Return to your hotel, or transfer to a local dinner venue of your choice."
+            }
+        ],
+        "pickup_options": [
+            "Zurich Airport",
+            "Hotel",
+            "Private Address"
+        ],
+        "price_from": "CHF 1000",
+        "duration": "Full Day",
+        "duration_hours_text": "8-9 hrs",
+        "passengers": "1-2 passengers"
+    },
+    "lake_lucerne_scenic_drive": {
+        "title": "Lake Lucerne Scenic Drive (Vierwaldstättersee)",
+        "description": "Enjoy a breathtaking journey around Lake Lucerne, with crystal-clear waters, charming lakeside villages, dramatic mountain scenery and panoramic viewpoints.",
+        "overview": "Enjoy a breathtaking journey around Lake Lucerne, with crystal-clear waters, charming lakeside villages, dramatic mountain scenery and panoramic viewpoints creating an unforgettable Swiss experience.",
+        "route_description": "An effortless journey along the shores of Lake Lucerne, tracing hidden viewpoints, storybook villages and dramatic Alpine scenery — all from the comfort of your private chauffeur-driven vehicle.",
+        "route": [
+            {
+                "time": "9:00",
+                "title": "VIP Pickup",
+                "description": "A private pickup at your hotel, in Zurich or the Lucerne area."
+            },
+            {
+                "time": "10:00",
+                "title": "Lucerne Lakefront",
+                "description": "A gentle departure along the Lucerne waterfront, with sweeping first views of the lake."
+            },
+            {
+                "time": "10:45",
+                "title": "Weggis & Vitznau",
+                "description": "A scenic drive through these idyllic resort villages, framed by Mount Rigi in the distance."
+            },
+            {
+                "time": "11:45",
+                "title": "Bürgenstock Viewpoint",
+                "description": "A stop at the legendary Bürgenstock plateau, for one of the most celebrated panoramas in Switzerland."
+            },
+            {
+                "time": "13:00",
+                "title": "Lakeside Lunch",
+                "description": "An exquisite lunch at a premium waterfront restaurant, overlooking the shimmering lake."
+            },
+            {
+                "time": "14:30",
+                "title": "Gersau & Brunnen",
+                "description": "A leisurely drive through Switzerland's smallest former republic and the charming town of Brunnen."
+            },
+            {
+                "time": "15:30",
+                "title": "Rütli Meadow Viewpoint",
+                "description": "A photo stop overlooking the historic birthplace of the Swiss Confederation."
+            },
+            {
+                "time": "16:30",
+                "title": "Alpine Village Stroll",
+                "description": "Free time to explore a charming lakeside village, with boutiques and quiet cafés."
+            },
+            {
+                "time": "17:30",
+                "title": "Scenic Return",
+                "description": "A relaxed drive back to Lucerne, accompanied by complimentary refreshments."
+            },
+            {
+                "time": "18:00",
+                "title": "VIP Drop-off",
+                "description": "Return to your hotel, or transfer to a local dinner venue of your choice."
+            }
+        ],
+        "pickup_options": [
+            "Zurich Airport",
+            "Hotel",
+            "Private Address"
+        ],
+        "price_from": "CHF 1000",
+        "duration": "Full Day",
+        "duration_hours_text": "8-9 hrs",
+        "passengers": "1-2 passengers"
+    },
+    "mount_pilatus": {
+        "title": "Mount Pilatus Experience",
+        "description": "Experience the majestic beauty of Mount Pilatus, where dramatic mountain landscapes, panoramic viewpoints and unforgettable Alpine scenery await.",
+        "overview": "Experience the majestic beauty of Mount Pilatus, where dramatic mountain landscapes, panoramic viewpoints and unforgettable Alpine scenery await. The journey by car is an experience in itself.",
+        "route_description": "An unforgettable ascent to the summit of Pilatus, combining the world's steepest cogwheel railway with the effortless comfort of a private chauffeur-driven journey.",
+        "route": [
+            {
+                "time": "9:00",
+                "title": "VIP Pickup",
+                "description": "A private pickup at your hotel, in Zurich or the Lucerne area."
+            },
+            {
+                "time": "10:00",
+                "title": "Base Station",
+                "description": "Arrival at Alpnachstad, home of the cogwheel railway, or at Kriens for the gondola."
+            },
+            {
+                "time": "10:30",
+                "title": "Mountain Ascent",
+                "description": "A VIP boarding of the world's steepest cogwheel railway, ascending in style."
+            },
+            {
+                "time": "11:30",
+                "title": "Pilatus Kulm",
+                "description": "Free time at the summit to savour sweeping views and walk the Dragon Path."
+            },
+            {
+                "time": "13:00",
+                "title": "Alpine Lunch",
+                "description": "A gourmet lunch at the historic Pilatus-Kulm restaurant, high above the clouds."
+            },
+            {
+                "time": "15:00",
+                "title": "Descent",
+                "description": "A scenic cable car descent to Kriens, with your chauffeur awaiting your arrival."
+            },
+            {
+                "time": "16:00",
+                "title": "Lakeside Drive",
+                "description": "A relaxing drive along the shores of Lake Lucerne, in complete comfort."
+            }
+        ],
+        "pickup_options": [
+            "Zurich Airport",
+            "Hotel",
+            "Private Address"
+        ],
+        "price_from": "CHF 1000",
+        "duration": "Full Day",
+        "duration_hours_text": "8-9 hrs",
+        "passengers": "1-2 passengers"
+    },
+    "mount_rigi": {
+        "title": "Mount Rigi Experience",
+        "description": "Discover the \"Queen of the Mountains\" with breathtaking panoramic views over the Swiss Alps and surrounding lakes.",
+        "overview": "Discover the \"Queen of the Mountains\" with breathtaking panoramic views over the Swiss Alps and surrounding lakes. Enjoy charming villages, scenic viewpoints and an unforgettable alpine atmosphere.",
+        "route_description": "A journey to the summit of Rigi aboard Europe's oldest cogwheel railway, crowned by a legendary panorama of thirteen lakes and the Swiss Alps.",
+        "route": [
+            {
+                "time": "9:00",
+                "title": "VIP Pickup",
+                "description": "A private pickup at your hotel, in Zurich or the Lucerne area."
+            },
+            {
+                "time": "10:00",
+                "title": "Base Station",
+                "description": "Arrival at Vitznau, home to the historic cogwheel railway station."
+            },
+            {
+                "time": "10:30",
+                "title": "Mountain Ascent",
+                "description": "A scenic ride aboard Europe's oldest cogwheel railway, climbing gently toward the summit."
+            },
+            {
+                "time": "11:30",
+                "title": "Rigi Kulm Peak",
+                "description": "A breathtaking 360° panorama over thirteen lakes and the Swiss Alps."
+            },
+            {
+                "time": "13:00",
+                "title": "Alpine Lunch",
+                "description": "A gourmet lunch at the Rigi Kulm Hotel, or a rustic mountain chalet."
+            },
+            {
+                "time": "15:00",
+                "title": "Descent",
+                "description": "A journey down by train to Weggis, or by panoramic cable car."
+            },
+            {
+                "time": "16:00",
+                "title": "Weggis Walk",
+                "description": "A gentle lakeside stroll through the charming resort village of Weggis."
+            },
+            {
+                "time": "17:00",
+                "title": "Scenic Return",
+                "description": "A relaxing drive back along the shores of Lake Zug and Lake Lucerne."
+            }
+        ],
+        "pickup_options": [
+            "Zurich Airport",
+            "Hotel",
+            "Private Address"
+        ],
+        "price_from": "CHF 1000",
+        "duration": "Full Day",
+        "duration_hours_text": "8-9 hrs",
+        "passengers": "1-2 passengers"
+    }
+}

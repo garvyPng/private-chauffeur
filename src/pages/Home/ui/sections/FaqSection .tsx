@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { ChevronDown } from 'lucide-react';
 import { Container } from '../../../../components/layout/Container';
 import SectionTitle from '../../../../components/ui/SectionTitle';
+import i18n from '../../../../i18n/config';
 
 interface FaqItem {
     question: string;
@@ -57,8 +58,12 @@ function FaqAccordionItem({
 }
 
 export const FaqSection = () => {
-    const { t } = useTranslation('common');
-    const items = t('faqs.items', { returnObjects: true }) as FaqItem[];
+    const { t } = useTranslation('home');
+    // const items = t('faqs.items', { returnObjects: true }) as FaqItem[];
+    const items = i18n.getResource(i18n.language, 'home', 'faqs.items') as
+        | FaqItem[]
+        | undefined;
+    const faqItems = Array.isArray(items) ? items : [];
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
     return (
@@ -71,7 +76,7 @@ export const FaqSection = () => {
                 />
 
                 <div className='mx-auto flex max-w-3xl flex-col gap-3'>
-                    {items.map((item, i) => (
+                    {faqItems.map((item, i) => (
                         <FaqAccordionItem
                             key={item.question}
                             item={item}

@@ -1,70 +1,118 @@
 {
     "zurich": {
-        "title": "Private Zürich Erlebnis",
-        "description": "Ein ganztägiges Eintauchen in die kosmopolitischste Stadt der Schweiz — Altstadt, Seepromenade, malerische Aussichtspunkte und versteckte Geheimtipps, ganz nach Ihrem eigenen Tempo.",
-        "overview": "Erleben Sie Zürich mit Ihrem eigenen privaten Chauffeur für den gesamten Tag. Ob Sie die Stadt privat oder geschäftlich besuchen — Ihr Fahrer steht Ihnen jederzeit zur Verfügung und ermöglicht Ihnen komfortables Reisen ohne Zeitdruck.",
-        "route_description": "Eine sorgfältig zusammengestellte Route mit den bekanntesten Sehenswürdigkeiten und verborgenen Schätzen der Region. Genießen Sie eine nahtlose Fahrt durch atemberaubende Landschaften, historische Wahrzeichen und unvergessliche Aussichtspunkte, während Ihr privater Chauffeur sich um jedes Detail kümmert.",
-        "route": [
-            {
-                "time": "9:00",
-                "title": "Abholung im Hotel",
-                "description": "Abholung im Hotel — Zürich Stadtzentrum"
-            },
-            {
-                "time": "10:00",
-                "title": "Altstadt",
-                "description": "Zürcher Altstadt — Grossmünster, Lindenhof"
-            },
-            {
-                "time": "18:00",
-                "title": "Rückfahrt",
-                "description": "Rückfahrt zum Hotel"
-            }
-        ],
-        "pickup_options": [
-            "Flughafen Zürich",
-            "Hotel",
-            "Private Adresse"
-        ],
-        "duration": "Ganztägig",
-        "duration_hours_text": "8-9 Std.",
-        "passengers": "1-4 Passagiere"
-    },
-    "lucerne": {
-        "title": "Private Luzern Erlebnis",
-        "description": "Erleben Sie den zeitlosen Charme Luzerns — die ikonische Kapellbrücke, den glitzernden See und beeindruckende Alpenpanoramen.",
-        "overview": "Entdecken Sie den zeitlosen Charme Luzerns — die berühmte Kapellbrücke, den Vierwaldstättersee, den Blick auf den Pilatus und die mittelalterliche Architektur der Altstadt.",
-        "route_description": "Ein stilvoller Tag in Luzern, individuell gestaltet mit den wichtigsten Sehenswürdigkeiten, exklusiver Freizeit und höchstem Komfort — während Ihr privater Chauffeur sich um jedes Detail Ihrer Reise kümmert.",
+        "id": "zurich",
+        "show": true,
+        "order": 1,
+        "slug": "zurich-private-experience",
+        "title": "Privates Erlebnis Zürich",
+        "description": "Ein ganztägiges Eintauchen in die weltoffenste Stadt der Schweiz — Altstadt, Seepromenade, malerische Aussichtspunkte und verborgene Schätze, ganz in Ihrem eigenen Tempo.",
+        "overview": "Erleben Sie Zürich mit Ihrem eigenen privaten Chauffeur für den gesamten Tag. Ob Freizeit oder Geschäft — Ihr Fahrer steht Ihnen jederzeit zur Verfügung, damit Sie bequem und ohne Zeitdruck reisen können.",
+        "route_description": "Eine sorgfältig gestaltete Route mit den bekanntesten Orten und verborgenen Schätzen der Region. Erleben Sie eine nahtlose Reise durch atemberaubende Landschaften, historische Wahrzeichen und unvergessliche Aussichtspunkte, während sich Ihr privater Chauffeur um jedes Detail kümmert.",
         "route": [
             {
                 "time": "9:00",
                 "title": "VIP-Abholung",
-                "description": "Komfortable Abholung in Ihrem Hotel in Luzern oder privater Transfer ab Zürich."
+                "description": "Treffpunkt am Flughafen Zürich (ZRH) oder in Ihrer Hotellobby."
+            },
+            {
+                "time": "10:00",
+                "title": "Altstadt & Lindenhof",
+                "description": "Zürcher Altstadt — Grossmünster, Lindenhof; malerische Fahrt und Fotostopp mit Panoramablick über die Limmat."
+            },
+            {
+                "time": "11:30",
+                "title": "Geschäft / Freizeit",
+                "description": "Zu Ihrer freien Verfügung für Vormittagstermine, Galeriebesuche oder Spaziergänge."
+            },
+            {
+                "time": "12:30",
+                "title": "Mittagessen am See",
+                "description": "Absetzung an einem erstklassigen Restaurant am Ufer des Zürichsees."
+            },
+            {
+                "time": "14:00",
+                "title": "Shopping an der Bahnhofstrasse",
+                "description": "Luxus-Shopping; der Chauffeur übernimmt Ihre Einkäufe und koordiniert die Abholung."
+            },
+            {
+                "time": "15:30",
+                "title": "Panoramafahrt Goldküste",
+                "description": "Fahrt entlang des Sees mit optionalem Stopp bei Lindt Chocolate."
+            },
+            {
+                "time": "17:00",
+                "title": "Entspannte Rückfahrt",
+                "description": "Ruhige Fahrt zurück mit kostenlosen Erfrischungen an Bord."
+            },
+            {
+                "time": "18:00",
+                "title": "VIP-Absetzung",
+                "description": "Rückkehr zu Ihrem Hotel, zum Flughafen oder zu einem Restaurant Ihrer Wahl."
+            }
+        ],
+        "custom_journey": {
+            "title": "Gestalten Sie Ihre eigene Reise",
+            "description": "Bevorzugen Sie eine eigene Route? Ihr Chauffeur steht Ihnen vollständig zur Verfügung. Wählen Sie die Orte, die Sie besuchen möchten, passen Sie den Zeitplan an und geniessen Sie die Schweiz in Ihrem eigenen Tempo. Zur Auswahl stehen:",
+            "items": [
+                "Shopping in Zürich",
+                "Geschäftstermine",
+                "Luxusrestaurants",
+                "Alpine Aussichtspunkte",
+                "Dörfer am See",
+                "Fotostopps",
+                "Verborgene Schätze",
+                "Freizeitfahrten"
+            ]
+        },
+        "pickup_options": [
+            "Flughafen Zürich",
+            "Hotel",
+            "Privatadresse"
+        ],
+        "duration": "Ganztägig",
+        "price": "AB CHF 1000",
+        "duration_hours_text": "8-9 Std.",
+        "passengers": "1-2 Passagiere"
+    },
+    "lucerne": {
+        "id": "lucerne",
+        "show": true,
+        "order": 2,
+        "slug": "lucerne-private-experience",
+        "title": "Privates Erlebnis Luzern",
+        "description": "Erleben Sie den zeitlosen Charme von Luzern — die berühmte Kapellbrücke, den glitzernden See und die Alpenaussicht.",
+        "overview": "Erleben Sie den zeitlosen Charme von Luzern — die berühmte Kapellbrücke, den glitzernden See, den Blick auf den Pilatus und die mittelalterliche Altstadtarchitektur.",
+        "route_description": "Ein erlesener Tag in Luzern, abgestimmt auf ikonische Sehenswürdigkeiten, exklusive Freizeit und mühelosen Komfort — während sich Ihr privater Chauffeur um jedes Detail unterwegs kümmert.",
+        "route": [
+            {
+                "time": "9:00",
+                "title": "VIP-Abholung",
+                "description": "Nahtlose Abholung an Ihrem Hotel in Luzern oder private Überführung aus Zürich."
             },
             {
                 "time": "10:00",
                 "title": "Altstadt & Kapellbrücke",
-                "description": "Ein entspannter Spaziergang über die berühmte Kapellbrücke und entlang der historischen Museggmauer."
+                "description": "Ein gemütlicher Spaziergang an der berühmten Kapellbrücke und der historischen Museggmauer vorbei."
             },
             {
                 "time": "11:00",
-                "title": "Geschäft & Freizeit",
-                "description": "Flexible Zeit nach Ihren Wünschen — für private Geschäftstermine, exklusive Galerien oder einen entspannten Spaziergang am See."
+                "title": "Termine / Freizeit",
+                "description": "Frei zu Ihrer Verfügung — für private Geschäftstermine, feine Galerien oder einen ruhigen Spaziergang am See."
             },
             {
                 "time": "13:00",
                 "title": "Mittagessen am See",
-                "description": "Ein exquisites Mittagessen in einem erstklassigen Restaurant mit Blick auf den Vierwaldstättersee."
+                "description": "Ein exquisites Mittagessen in einem erstklassigen Restaurant mit Seeblick in Luzern."
             },
             {
                 "time": "14:30",
                 "title": "Uhren-Shopping",
-                "description": "Erleben Sie exklusives Uhrenshopping am berühmten Schwanenplatz."
+                "description": "Geniessen Sie exklusives Uhren-Shopping am berühmten Schwanenplatz."
             },
             {
                 "time": "16:00",
                 "title": "Panoramafahrt",
-                "description": "Eine beeindruckende Fahrt zum Bürgenstock oder entlang des Seeufers."
+                "description": "Eine malerische Fahrt hinauf zum Bürgenstock oder entlang der Seeufer."
             },
             {
                 "time": "17:00",
@@ -73,82 +121,261 @@
             },
             {
                 "time": "18:00",
-                "title": "VIP-Rücktransfer",
-                "description": "Rückfahrt zu Ihrem Hotel oder Transfer zu einem Restaurant Ihrer Wahl."
+                "title": "VIP-Absetzung",
+                "description": "Rückkehr zu Ihrem Hotel oder Transfer zu einem Restaurant Ihrer Wahl."
             }
         ],
+        "custom_journey": {
+            "title": "Gestalten Sie Ihre eigene Reise",
+            "description": "Bevorzugen Sie eine eigene Route? Ihr Chauffeur steht Ihnen vollständig zur Verfügung. Wählen Sie die Orte, die Sie besuchen möchten, passen Sie den Zeitplan an und geniessen Sie die Schweiz in Ihrem eigenen Tempo. Zur Auswahl stehen:",
+            "items": [
+                "Shopping in der Altstadt",
+                "Geschäftstermine",
+                "Restaurants am See",
+                "Aussichtspunkte in den Bergen",
+                "Museumsbesuche",
+                "Fotostopps",
+                "Verborgene Schätze",
+                "Freizeitfahrten"
+            ]
+        },
         "pickup_options": [
             "Flughafen Zürich",
             "Hotel",
-            "Private Adresse"
+            "Privatadresse"
         ],
         "duration": "Ganztägig",
+        "price": "AB CHF 1000",
         "duration_hours_text": "8-9 Std.",
         "passengers": "1-2 Passagiere"
     },
     "lake_lucerne_scenic_drive": {
+        "id": "vierwaldstättersee",
+        "show": true,
+        "order": 3,
+        "slug": "lake-lucerne-scenic-drive",
         "title": "Panoramafahrt Vierwaldstättersee",
-        "description": "Genießen Sie eine atemberaubende Fahrt rund um den Vierwaldstättersee mit kristallklarem Wasser, charmanten Seedorfern, beeindruckender Berglandschaft und spektakulären Aussichtspunkten.",
-        "overview": "Erleben Sie eine unvergessliche Reise entlang des Vierwaldstättersees mit kristallklarem Wasser, idyllischen Dörfern, dramatischen Alpenpanoramen und einzigartigen Aussichtspunkten.",
-        "route_description": "Eine mühelose Reise entlang der Ufer des Vierwaldstättersees mit versteckten Aussichtspunkten, malerischen Dörfern und beeindruckender Alpenlandschaft — aus dem Komfort Ihres privaten Chauffeurfahrzeugs.",
+        "description": "Geniessen Sie eine atemberaubende Fahrt rund um den Vierwaldstättersee mit kristallklarem Wasser, charmanten Dörfern am See, dramatischer Bergkulisse und Panoramablicken.",
+        "overview": "Geniessen Sie eine atemberaubende Fahrt rund um den Vierwaldstättersee mit kristallklarem Wasser, charmanten Dörfern am See, dramatischer Bergkulisse und Panoramablicken für ein unvergessliches Schweizer Erlebnis.",
+        "route_description": "Eine mühelose Reise entlang der Ufer des Vierwaldstättersees, vorbei an verborgenen Aussichtspunkten, malerischen Dörfern und dramatischer Alpenlandschaft — ganz im Komfort Ihres privaten Chauffeurfahrzeugs.",
         "route": [
             {
                 "time": "9:00",
                 "title": "VIP-Abholung",
-                "description": "Private Abholung in Ihrem Hotel in Zürich oder der Region Luzern."
+                "description": "Private Abholung an Ihrem Hotel, in Zürich oder in der Region Luzern."
             },
             {
                 "time": "10:00",
-                "title": "Luzerner Seepromenade",
-                "description": "Entspannte Fahrt entlang der Uferpromenade mit ersten beeindruckenden Blicken auf den See."
+                "title": "Seeufer Luzern",
+                "description": "Eine sanfte Ausfahrt entlang der Luzerner Uferpromenade mit den ersten weiten Ausblicken auf den See."
             },
             {
                 "time": "10:45",
                 "title": "Weggis & Vitznau",
-                "description": "Panoramafahrt durch idyllische Ferienorte mit Blick auf den majestätischen Rigi."
+                "description": "Eine malerische Fahrt durch diese idyllischen Ferienorte, umrahmt vom Rigi-Massiv in der Ferne."
             },
             {
                 "time": "11:45",
                 "title": "Aussichtspunkt Bürgenstock",
-                "description": "Ein Stopp auf dem legendären Bürgenstock-Plateau mit einem der schönsten Panoramen der Schweiz."
+                "description": "Ein Halt auf dem legendären Bürgenstock-Plateau — einem der schönsten Panoramen der Schweiz."
             },
             {
                 "time": "13:00",
                 "title": "Mittagessen am See",
-                "description": "Exquisites Mittagessen in einem erstklassigen Restaurant direkt am Wasser."
+                "description": "Ein exquisites Mittagessen in einem erstklassigen Restaurant direkt am glitzernden See."
             },
             {
                 "time": "14:30",
                 "title": "Gersau & Brunnen",
-                "description": "Gemütliche Fahrt durch die kleinste ehemalige Republik der Schweiz und den charmanten Ort Brunnen."
+                "description": "Eine gemütliche Fahrt durch die kleinste ehemalige Republik der Schweiz und den charmanten Ort Brunnen."
             },
             {
                 "time": "15:30",
                 "title": "Aussichtspunkt Rütliwiese",
-                "description": "Fotostopp mit Blick auf den historischen Ursprung der Schweizer Eidgenossenschaft."
+                "description": "Ein Fotostopp mit Blick auf die historische Geburtsstätte der Schweizerischen Eidgenossenschaft."
             },
             {
                 "time": "16:30",
                 "title": "Spaziergang im Alpendorf",
-                "description": "Freie Zeit zur Erkundung eines charmanten Seedorfes mit Boutiquen und gemütlichen Cafés."
+                "description": "Freizeit, um ein charmantes Dorf am See mit Boutiquen und ruhigen Cafés zu erkunden."
             },
             {
                 "time": "17:30",
-                "title": "Panorama-Rückfahrt",
-                "description": "Entspannte Rückfahrt nach Luzern mit kostenlosen Erfrischungen."
+                "title": "Malerische Rückfahrt",
+                "description": "Eine entspannte Rückfahrt nach Luzern mit kostenlosen Erfrischungen."
             },
             {
                 "time": "18:00",
-                "title": "VIP-Rücktransfer",
-                "description": "Rückfahrt zu Ihrem Hotel oder Transfer zu einem Restaurant Ihrer Wahl."
+                "title": "VIP-Absetzung",
+                "description": "Rückkehr zu Ihrem Hotel oder Transfer zu einem Restaurant Ihrer Wahl."
             }
         ],
+        "custom_journey": {
+            "title": "Gestalten Sie Ihre eigene Reise",
+            "description": "Bevorzugen Sie eine eigene Route? Ihr Chauffeur steht Ihnen vollständig zur Verfügung. Wählen Sie die Orte, die Sie besuchen möchten, passen Sie den Zeitplan an und geniessen Sie die Schweiz in Ihrem eigenen Tempo. Zur Auswahl stehen:",
+            "items": [
+                "Dörfer am See",
+                "Aussichtspunkte in den Bergen",
+                "Fotostopps",
+                "Boutique-Ortschaften",
+                "Restaurants am Ufer",
+                "Ausgangspunkte für Wanderungen",
+                "Verborgene Schätze",
+                "Freizeitfahrten"
+            ]
+        },
         "pickup_options": [
             "Flughafen Zürich",
             "Hotel",
-            "Private Adresse"
+            "Privatadresse"
         ],
         "duration": "Ganztägig",
+        "price": "AB CHF 1000",
+        "duration_hours_text": "8-9 Std.",
+        "passengers": "1-2 Passagiere"
+    },
+    "mount_pilatus": {
+        "id": "pilatus",
+        "show": true,
+        "order": 4,
+        "slug": "mount-pilatus-experience",
+        "title": "Erlebnis Pilatus",
+        "description": "Erleben Sie die majestätische Schönheit des Pilatus — dramatische Berglandschaften, Panoramablicke und unvergessliche Alpenkulisse erwarten Sie.",
+        "overview": "Erleben Sie die majestätische Schönheit des Pilatus — dramatische Berglandschaften, Panoramablicke und unvergessliche Alpenkulisse erwarten Sie. Bereits die Autofahrt ist ein Erlebnis für sich.",
+        "route_description": "Ein unvergesslicher Aufstieg zum Gipfel des Pilatus — kombiniert die steilste Zahnradbahn der Welt mit dem mühelosen Komfort einer privaten Chauffeurfahrt.",
+        "route": [
+            {
+                "time": "9:00",
+                "title": "VIP-Abholung",
+                "description": "Private Abholung an Ihrem Hotel, in Zürich oder in der Region Luzern."
+            },
+            {
+                "time": "10:00",
+                "title": "Talstation",
+                "description": "Ankunft in Alpnachstad, der Talstation der Zahnradbahn, oder in Kriens für die Luftseilbahn."
+            },
+            {
+                "time": "10:30",
+                "title": "Bergfahrt",
+                "description": "VIP-Einstieg in die steilste Zahnradbahn der Welt — stilvoller Aufstieg zum Gipfel."
+            },
+            {
+                "time": "11:30",
+                "title": "Pilatus Kulm",
+                "description": "Freizeit auf dem Gipfel, um die weite Aussicht zu geniessen und den Drachenweg zu erkunden."
+            },
+            {
+                "time": "13:00",
+                "title": "Alpines Mittagessen",
+                "description": "Ein Gourmet-Mittagessen im historischen Restaurant Pilatus-Kulm, hoch über den Wolken."
+            },
+            {
+                "time": "15:00",
+                "title": "Abfahrt",
+                "description": "Eine malerische Fahrt mit der Luftseilbahn hinunter nach Kriens, wo Ihr Chauffeur bereits wartet."
+            },
+            {
+                "time": "16:00",
+                "title": "Fahrt am See",
+                "description": "Eine entspannte Fahrt entlang der Ufer des Vierwaldstättersees, in vollem Komfort."
+            }
+        ],
+        "custom_journey": {
+            "title": "Gestalten Sie Ihre eigene Reise",
+            "description": "Bevorzugen Sie eine eigene Route? Ihr Chauffeur steht Ihnen vollständig zur Verfügung. Wählen Sie die Orte, die Sie besuchen möchten, passen Sie den Zeitplan an und geniessen Sie die Schweiz in Ihrem eigenen Tempo. Zur Auswahl stehen:",
+            "items": [
+                "Aussichtspunkte am Gipfel",
+                "Wanderung auf dem Drachenweg",
+                "Alpine Gastronomie",
+                "Seilbahnrouten",
+                "Dörfer am See",
+                "Fotostopps",
+                "Verborgene Schätze",
+                "Freizeitfahrten"
+            ]
+        },
+        "pickup_options": [
+            "Flughafen Zürich",
+            "Hotel",
+            "Privatadresse"
+        ],
+        "duration": "Ganztägig",
+        "price": "AB CHF 1000",
+        "duration_hours_text": "8-9 Std.",
+        "passengers": "1-2 Passagiere"
+    },
+    "mount_rigi": {
+        "id": "rigi",
+        "show": true,
+        "order": 5,
+        "slug": "mount-rigi-experience",
+        "title": "Erlebnis Rigi",
+        "description": "Entdecken Sie die \"Königin der Berge\" mit atemberaubenden Panoramablicken über die Schweizer Alpen und die umliegenden Seen.",
+        "overview": "Entdecken Sie die \"Königin der Berge\" mit atemberaubenden Panoramablicken über die Schweizer Alpen und die umliegenden Seen. Geniessen Sie charmante Dörfer, malerische Aussichtspunkte und eine unvergessliche alpine Atmosphäre.",
+        "route_description": "Eine Reise zum Gipfel der Rigi mit Europas ältester Zahnradbahn, gekrönt von einem legendären Panorama über dreizehn Seen und die Schweizer Alpen.",
+        "route": [
+            {
+                "time": "9:00",
+                "title": "VIP-Abholung",
+                "description": "Private Abholung an Ihrem Hotel, in Zürich oder in der Region Luzern."
+            },
+            {
+                "time": "10:00",
+                "title": "Talstation",
+                "description": "Ankunft in Vitznau, der historischen Station der Zahnradbahn."
+            },
+            {
+                "time": "10:30",
+                "title": "Bergfahrt",
+                "description": "Eine malerische Fahrt mit Europas ältester Zahnradbahn, sanft hinauf zum Gipfel."
+            },
+            {
+                "time": "11:30",
+                "title": "Rigi Kulm",
+                "description": "Ein atemberaubendes 360°-Panorama über dreizehn Seen und die Schweizer Alpen."
+            },
+            {
+                "time": "13:00",
+                "title": "Alpines Mittagessen",
+                "description": "Ein Gourmet-Mittagessen im Rigi Kulm Hotel oder in einer urigen Berghütte."
+            },
+            {
+                "time": "15:00",
+                "title": "Abfahrt",
+                "description": "Die Abfahrt mit der Bahn nach Weggis oder mit der Panorama-Luftseilbahn."
+            },
+            {
+                "time": "16:00",
+                "title": "Spaziergang in Weggis",
+                "description": "Ein gemütlicher Spaziergang am See im charmanten Ferienort Weggis."
+            },
+            {
+                "time": "17:00",
+                "title": "Malerische Rückfahrt",
+                "description": "Eine entspannte Rückfahrt entlang der Ufer des Zugersees und des Vierwaldstättersees."
+            }
+        ],
+        "custom_journey": {
+            "title": "Gestalten Sie Ihre eigene Reise",
+            "description": "Bevorzugen Sie eine eigene Route? Ihr Chauffeur steht Ihnen vollständig zur Verfügung. Wählen Sie die Orte, die Sie besuchen möchten, passen Sie den Zeitplan an und geniessen Sie die Schweiz in Ihrem eigenen Tempo. Zur Auswahl stehen:",
+            "items": [
+                "Panoramen am Gipfel",
+                "Dorfspaziergänge",
+                "Alpine Gastronomie",
+                "Zahnradbahnrouten",
+                "Stopps am See",
+                "Fotostopps",
+                "Verborgene Schätze",
+                "Freizeitfahrten"
+            ]
+        },
+        "pickup_options": [
+            "Flughafen Zürich",
+            "Hotel",
+            "Privatadresse"
+        ],
+        "duration": "Ganztägig",
+        "price": "AB CHF 1000",
         "duration_hours_text": "8-9 Std.",
         "passengers": "1-2 Passagiere"
     }

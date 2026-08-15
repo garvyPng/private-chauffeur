@@ -1,0 +1,115 @@
+{
+    "hero": {
+        "title": "Discover Switzerland",
+        "title-secondary": "in Complete Comfort",
+        "text": "Private Mercedes-Benz chauffeur experiences across Zurich, Lucerne and the Swiss Alps.",
+        "btn-book": "Book Your Experience",
+        "btn-explore": "Explore Tours"
+    },
+    "premium_experience": {
+        "eyebrow": "The Experience",
+        "title": "A Premium Experience",
+        "features": [
+            {
+                "icon": "shield",
+                "title": "Private Chauffeur",
+                "description": "Professional, discreet chauffeur service with complete privacy and personalized attention."
+            },
+            {
+                "icon": "star",
+                "title": "Luxury Vehicle",
+                "description": "First-class Mercedes-Benz comfort — climate-controlled interior, immaculate condition and punctual service."
+            },
+            {
+                "icon": "briefcase",
+                "title": "Personalized Journey",
+                "description": "Flexible itinerary planning tailored entirely to your schedule, pace and personal preferences."
+            }
+        ]
+    },
+    "featured_experiences": {
+        "eyebrow": "Featured Experiences",
+        "title": "Exclusive Swiss Journeys"
+    },
+    "vehicle": {
+        "eyebrow": "The Vehicle",
+        "title": "The Comfort of a",
+        "title_accent": "Private Mercedes-Benz",
+        "description": "Every journey takes place in a meticulously maintained Mercedes-Benz E-Class or S-Class — the ultimate expression of automotive elegance and comfort.",
+        "features": [
+            "Premium Nappa leather interior",
+            "Spacious cabin for up to 4 passengers",
+            "Dual-zone climate control",
+            "Available privacy partition for maximum discretion",
+            "Mineral water & refreshments",
+            "Professional service throughout your journey"
+        ],
+        "cta": {
+            "label": "Discover the Vehicle",
+            "link": "/vehicle"
+        }
+    },
+    "why_choose_us": {
+        "eyebrow": "Why Choose Us",
+        "title": "The Difference Is in the Details",
+        "features": [
+            {
+                "title": "Swiss Quality",
+                "description": "Precision, punctuality and the highest standards — true to the Swiss way."
+            },
+            {
+                "title": "Luxury Comfort",
+                "description": "First-class travel in a premium Mercedes-Benz limousine."
+            },
+            {
+                "title": "Experienced Chauffeur",
+                "description": "A multilingual professional with extensive local knowledge of Switzerland."
+            },
+            {
+                "title": "Personal Attention",
+                "description": "Every detail is tailored to your preferences and individual schedule."
+            }
+        ]
+    },
+    "reserve_cta": {
+        "eyebrow": "Reserve Your Journey",
+        "title": "Your Private",
+        "title_accent": "Swiss Journey",
+        "title_end": "Begins Here",
+        "description": "Reserve your date and let us create an unforgettable Swiss experience tailored entirely to you.",
+        "cta": {
+            "label": "Book Your Experience",
+            "link": "#"
+        }
+    },
+    "faqs": {
+        "eyebrow": "FAQs",
+        "title": "Frequently Asked Questions",
+        "items": [
+            {
+                "question": "Which regions do you cover?",
+                "answer": "We provide private chauffeur services in Zurich, Lucerne and throughout the Swiss Alpine region, including personalized day trips to surrounding lakes and mountains upon request."
+            },
+            {
+                "question": "Which vehicle will I travel in?",
+                "answer": "All journeys are provided in a meticulously maintained Mercedes-Benz E-Class or S-Class with premium Nappa leather, dual-zone climate control and a spacious cabin for up to four passengers."
+            },
+            {
+                "question": "Can I customize my itinerary?",
+                "answer": "Absolutely. Every experience is fully flexible and can be adapted to your schedule, pace and personal preferences — simply let us know which destinations and activities you would like to include."
+            },
+            {
+                "question": "How far in advance should I book?",
+                "answer": "We recommend booking at least 48 hours in advance to guarantee availability. However, we will always do our best to accommodate last-minute requests whenever possible."
+            },
+            {
+                "question": "Is gratuity included in the price?",
+                "answer": "Yes, all prices are fully inclusive with no hidden fees. Gratuity for your chauffeur is optional and entirely at your discretion."
+            },
+            {
+                "question": "Can I book a one-way transfer only?",
+                "answer": "Yes, in addition to our private day experiences, we can arrange one-way transfers and point-to-point journeys. Contact us for a personalized quote."
+            }
+        ]
+    }
+}

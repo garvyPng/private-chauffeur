@@ -1,17 +1,21 @@
 import { useTranslation } from 'react-i18next';
-import { useNavigate, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Container } from '../layout/Container';
 import { useState } from 'react';
+import { useLocalizedPath } from '../../hooks/useLocalizedPath';
 
 export default function Navbar() {
     const navigate = useNavigate();
     const { lang } = useParams();
     const { t } = useTranslation('common');
+    const localize = useLocalizedPath();
     const [isOpen, setIsOpen] = useState(false);
 
     const changeLang = (newLang: string) => {
         if (newLang === lang) return;
-        navigate(`/${newLang}`);
+
+        const pathWithoutLang = location.pathname.replace(/^\/(en|de)/, '');
+        navigate(`/${newLang}/${pathWithoutLang}`);
     };
     const scrollTo = (id: string) => {
         document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
@@ -37,38 +41,35 @@ export default function Navbar() {
                         </div>
                     </a>
 
-                    <nav className='hidden lg:flex gap-6 text-base font-normal absolute md:relative top-20 md:top-0'>
-                        <button
-                            onClick={() => scrollTo('home')}
-                            className='relative group'
-                        >
+                    <nav className='absolute top-20 hidden gap-6 text-base font-normal md:relative md:top-0 lg:flex'>
+                        <Link to={localize('/')} className='group relative'>
                             {t('nav.home')}
-                            <span className='absolute left-0 -bottom-1 w-0 h-px bg-white transition-all duration-300 group-hover:w-full'></span>
-                        </button>
+                            <span className='absolute -bottom-1 left-0 h-px w-0 bg-white transition-all duration-300 group-hover:w-full'></span>
+                        </Link>
 
-                        <button
-                            onClick={() => scrollTo('experiences')}
-                            className='relative group'
+                        <Link
+                            to={localize('/experiences')}
+                            className='group relative'
                         >
                             {t('nav.experiences')}
-                            <span className='absolute left-0 -bottom-1 w-0 h-px bg-white transition-all duration-300 group-hover:w-full'></span>
-                        </button>
+                            <span className='absolute -bottom-1 left-0 h-px w-0 bg-white transition-all duration-300 group-hover:w-full'></span>
+                        </Link>
 
-                        <button
-                            onClick={() => scrollTo('vehicle')}
-                            className='relative group'
+                        <Link
+                            to={localize('/vehicle')}
+                            className='group relative'
                         >
                             {t('nav.vehicle')}
-                            <span className='absolute left-0 -bottom-1 w-0 h-px bg-white transition-all duration-300 group-hover:w-full'></span>
-                        </button>
+                            <span className='absolute -bottom-1 left-0 h-px w-0 bg-white transition-all duration-300 group-hover:w-full'></span>
+                        </Link>
 
-                        <button
-                            onClick={() => scrollTo('contact')}
-                            className='relative group'
+                        <Link
+                            to={localize('/contact')}
+                            className='group relative'
                         >
                             {t('nav.contact')}
-                            <span className='absolute left-0 -bottom-1 w-0 h-px bg-white transition-all duration-300 group-hover:w-full'></span>
-                        </button>
+                            <span className='absolute -bottom-1 left-0 h-px w-0 bg-white transition-all duration-300 group-hover:w-full'></span>
+                        </Link>
                     </nav>
 
                     <div className='hidden lg:flex items-center gap-3'>
@@ -87,7 +88,7 @@ export default function Navbar() {
                         <div className='flex space-x-2'>
                             <a
                                 className='text-white w-[18px] h-[18px] transition-all duration-300 hover:scale-110'
-                                href='https://t.me/keratin_switzerland'
+                                href='#'
                                 target='_blank'
                                 rel='noopener noreferrer'
                             >
@@ -119,7 +120,7 @@ export default function Navbar() {
                             </a>
                             <a
                                 className='text-white w-[18px] h-[18px] transition-all duration-300 hover:scale-110'
-                                href='https://www.instagram.com/keratin.switzerland'
+                                href='#'
                                 target='_blank'
                                 rel='noopener noreferrer'
                             >
@@ -262,7 +263,7 @@ export default function Navbar() {
                                     <div className='flex gap-6 mt-6'>
                                         <a
                                             className='text-white w-[18px] h-[18px] transition-all duration-300 hover:scale-110'
-                                            href='https://t.me/keratin_switzerland'
+                                            href='#'
                                             target='_blank'
                                             rel='noopener noreferrer'
                                         >
@@ -294,7 +295,7 @@ export default function Navbar() {
                                         </a>
                                         <a
                                             className='text-white w-[18px] h-[18px] transition-all duration-300 hover:scale-110'
-                                            href='https://www.instagram.com/keratin.switzerland'
+                                            href='#'
                                             target='_blank'
                                             rel='noopener noreferrer'
                                         >

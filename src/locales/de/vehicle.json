@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "eyebrow": "Das Fahrzeug",
+        "title": "Mercedes-Benz Exzellenz"
+    },
+    "interior": {
+        "eyebrow": "Interieur",
+        "title": "Ein Rückzugsort auf vier Rädern",
+        "description": "Treten Sie ein und die Welt wird ruhiger. Geschmeidiges Leder umgibt Sie, stimmungsvolle Beleuchtung schafft eine angenehme Atmosphäre und die Ruhe eines perfekt abgestimmten Innenraums lädt dazu ein, die Fahrt ganz einfach zu genießen.",
+        "features": [
+            "Handgefertigte Nappa-Ledersitze",
+            "Panorama-Glasdach (modellabhängig)",
+            "Ambientebeleuchtung mit 64 Farben",
+            "Massagefunktion in den Rücksitzen",
+            "Geräuschisolierter Innenraum",
+            "USB-C und kabelloses Laden"
+        ]
+    },
+    "specifications": {
+        "eyebrow": "Spezifikationen",
+        "title": "Fahrzeugdetails",
+        "items": {
+            "model": {
+                "label": "Modell",
+                "value": "Mercedes-Benz E-Klasse"
+            },
+            "passengers": {
+                "label": "Passagiere",
+                "value": "Bis zu 2 Gäste"
+            },
+            "luggage": {
+                "label": "Gepäck",
+                "value": "2–3 große Koffer"
+            },
+            "climate": {
+                "label": "Klimatisierung",
+                "value": "Automatische Zwei-Zonen-Klimaanlage"
+            },
+            "upholstery": {
+                "label": "Polsterung",
+                "value": "Premium-Nappa-Leder"
+            },
+            "wifi": {
+                "label": "WLAN",
+                "value": "Kostenlos an Bord"
+            }
+        }
+    },
+    "cta": {
+        "text": "Erleben Sie den Unterschied eines Mercedes-Benz selbst.",
+        "button": "IHR ERLEBNIS BUCHEN"
+    }
+}

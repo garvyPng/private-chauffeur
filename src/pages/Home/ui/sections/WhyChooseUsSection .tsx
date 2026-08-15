@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Container } from '../../../../components/layout/Container';
 import SectionTitle from '../../../../components/ui/SectionTitle';
+import i18n from '../../../../i18n/config';
 
 interface FeatureContent {
     title: string;
@@ -34,10 +35,17 @@ function FeatureCard({
 }
 
 export const WhyChooseUsSection = () => {
-    const { t } = useTranslation('common');
-    const features = t('why_choose_us.features', {
-        returnObjects: true,
-    }) as FeatureContent[];
+    const { t } = useTranslation('home');
+    // const features = t('why_choose_us.features', {
+    //     returnObjects: true,
+    // }) as FeatureContent[];
+
+    const items = i18n.getResource(
+        i18n.language,
+        'home',
+        'why_choose_us.features',
+    ) as FeatureContent[];
+    const features = Array.isArray(items) ? items : [];
 
     return (
         <section className='mt-16'>

@@ -48,7 +48,7 @@ function FeatureCard({ icon: Icon, title, description }: Feature) {
 }
 
 export const ExperienceSection = () => {
-    const { t } = useTranslation('common');
+    const { t } = useTranslation('home');
     const raw = t('premium_experience.features', {
         returnObjects: true,
     });

@@ -3,6 +3,7 @@ import { Clock, ArrowRight } from 'lucide-react';
 import { Container } from '../../../../components/layout/Container';
 import toursData from '../../../../data/tours.json';
 import SectionTitle from '../../../../components/ui/SectionTitle';
+import { Link } from 'react-router-dom';
 
 interface TourData {
     id: string;
@@ -10,12 +11,12 @@ interface TourData {
     order: number;
     slug: string;
     image: string;
-    price_from: string;
     duration_hours: number;
     passengers_max: number;
 }
 
 interface TourContent {
+    price: string;
     title: string;
     description: string;
     duration: string;
@@ -52,7 +53,7 @@ function TourCard({ tour, content }: { tour: TourData; content: TourContent }) {
                         {content.duration}
                     </span>
                     <span className='font-medium uppercase text-[#C9A15B]'>
-                        {t('featured_experiences.from')} {tour.price_from}
+                        {content.price}
                     </span>
                 </div>
 
@@ -60,7 +61,7 @@ function TourCard({ tour, content }: { tour: TourData; content: TourContent }) {
                     href={`/experiences/${tour.slug}`}
                     className='group mr-5 flex items-center gap-1 text-sm text-neutral-900'
                 >
-                    {t('featured_experiences.view_experience')}
+                    {t('buttons.learn_more')}
                     <ArrowRight className='h-4 w-4 transition-transform group-hover:translate-x-1' />
                 </a>
             </div>
@@ -69,7 +70,7 @@ function TourCard({ tour, content }: { tour: TourData; content: TourContent }) {
 }
 
 export const JourneySection = () => {
-    const { t } = useTranslation(['common', 'tours']);
+    const { t } = useTranslation(['home', 'tours']);
 
     const featuredTours = Object.values(toursData as Record<string, TourData>)
         .filter((tour) => tour.show)
@@ -77,27 +78,27 @@ export const JourneySection = () => {
         .slice(0, 2);
 
     return (
-        <section className='mt-16'>
+        <section id='experiences' className='mt-16'>
             <Container>
                 <div className='flex items-end justify-between'>
                     <SectionTitle
                         subtitle={t('featured_experiences.eyebrow', {
-                            ns: 'common',
+                            ns: 'home',
                         })}
                         title={t('featured_experiences.title', {
-                            ns: 'common',
+                            ns: 'home',
                         })}
                         position='left'
                         className=' mb-0'
                     />
 
-                    <a
-                        href='/experiences'
+                    <Link
+                        to='experiences'
                         className='group hidden items-center gap-1 whitespace-nowrap text-sm font-medium tracking-[0.15em] text-[#C9A15B] md:flex'
                     >
-                        {t('featured_experiences.view_all', { ns: 'common' })}
+                        {t('buttons.view_all', { ns: 'common' })}
                         <ArrowRight className='h-4 w-4 transition-transform group-hover:translate-x-1' />
-                    </a>
+                    </Link>
                 </div>
 
                 <div className='mt-12 grid grid-cols-1 items-stretch gap-2 md:grid-cols-2'>

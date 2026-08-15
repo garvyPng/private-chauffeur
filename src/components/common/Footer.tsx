@@ -15,7 +15,7 @@ export const Footer = () => {
     const year = new Date().getFullYear();
 
     return (
-        <footer className='relative left-1/2 right-1/2 mt-16 w-screen -translate-x-1/2 bg-black'>
+        <footer className='relative left-1/2 right-1/2 mt-16 w-full -translate-x-1/2 bg-black'>
             <Container className='py-14' size='lg'>
                 <div className='flex flex-col gap-12 md:flex-row md:justify-between'>
                     <div className='max-w-sm'>

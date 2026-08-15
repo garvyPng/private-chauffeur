@@ -1,0 +1,22 @@
+{
+    "hero": {
+        "title": "Individuelle",
+        "title-secondary": "Schweizer Reisen",
+        "eyebrow": "Das Erlebnis",
+        "text": "Jedes Erlebnis wird individuell gestaltet und bietet Ihnen eine außergewöhnliche, vollkommen private Reise zu den schönsten und beeindruckendsten Orten der Schweiz."
+    },
+    "experiences_list": {
+        "eyebrow": "Alle Erlebnisse",
+        "title": "Unsere privaten Reisen",
+        "search_placeholder": "Erlebnisse suchen...",
+        "no_results": "Keine Erlebnisse entsprechen Ihrer Suche."
+    },
+    "experience_overview": {
+        "overview_label": "Überblick",
+        "signature_route_label": "Signature-Route",
+        "create_journey": "Gestalten Sie Ihre eigene Reise",
+        "or_label": "Oder",
+        "pickup_options_label": "Abholoptionen",
+        "other_choices_label": "Weitere beliebte Erlebnisse"
+    }
+}

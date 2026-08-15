@@ -1,11 +1,17 @@
 import { useTranslation } from 'react-i18next';
 import { Container } from '../../../../components/layout/Container';
 import SectionTitle from '../../../../components/ui/SectionTitle';
+import i18n from '../../../../i18n/config';
 
 export const VehicleSection = () => {
-    const { t } = useTranslation('common');
-    const features = t('vehicle.features', { returnObjects: true }) as string[];
-
+    const { t } = useTranslation('home');
+    // const features = t('vehicle.features', { returnObjects: true }) as string[];
+    const items = i18n.getResource(
+        i18n.language,
+        'home',
+        'vehicle.features',
+    ) as string[];
+    const features = Array.isArray(items) ? items : [];
     return (
         <section className='relative left-1/2 right-1/2 mt-16 w-screen -translate-x-1/2 bg-black'>
             <div className='flex flex-col md:flex-row'>

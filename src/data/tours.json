@@ -4,49 +4,84 @@
         "show": true,
         "order": 1,
         "slug": "zurich-private-experience",
-        "image": "/images/tours/zurich.png",
         "price_from": "CHF 1000",
         "duration_hours": 8,
-        "passengers_max": 2
+        "passengers_max": 2,
+        "image": "/images/tours/zurich/zurich.png",
+        "gallery": [
+            "/images/tours/zurich/gallery-1.jpg",
+            "/images/tours/zurich/gallery-2.jpg",
+            "/images/tours/zurich/gallery-3.jpg",
+            "/images/tours/zurich/gallery-4.jpg",
+            "/images/tours/zurich/gallery-5.jpg"
+        ]
     },
     "lucerne": {
         "id": "lucerne",
         "show": true,
         "order": 2,
         "slug": "lucerne-private-experience",
-        "image": "/images/tours/lucerne.png",
         "price_from": "CHF 1000",
         "duration_hours": 8,
-        "passengers_max": 2
+        "passengers_max": 2,
+        "image": "/images/tours/lucerne/lucerne.png",
+        "gallery": [
+            "/images/tours/lucerne/gallery-1.jpg",
+            "/images/tours/lucerne/gallery-2.jpg",
+            "/images/tours/lucerne/gallery-3.jpg",
+            "/images/tours/lucerne/gallery-4.jpg",
+            "/images/tours/lucerne/gallery-5.jpg"
+        ]
     },
     "lake_lucerne_scenic_drive": {
         "id": "lake_lucerne_scenic_drive",
         "show": true,
         "order": 3,
         "slug": "lake-lucerne-scenic-drive",
-        "image": "/images/tours/lake-lucerne.jpg",
         "price_from": "CHF 1000",
         "duration_hours": 8,
-        "passengers_max": 2
+        "passengers_max": 2,
+        "image": "/images/tours/lake-lucerne/lake-lucerne.jpg",
+        "gallery": [
+            "/images/tours/lake-lucerne/gallery-1.jpg",
+            "/images/tours/lake-lucerne/gallery-2.jpg",
+            "/images/tours/lake-lucerne/gallery-3.jpg",
+            "/images/tours/lake-lucerne/gallery-4.jpg",
+            "/images/tours/lake-lucerne/gallery-5.jpg"
+        ]
     },
     "mount_pilatus": {
         "id": "mount_pilatus",
         "show": true,
         "order": 4,
         "slug": "mount-pilatus-experience",
-        "image": "/images/tours/pilatus.jpg",
         "price_from": "CHF 1000",
         "duration_hours": 8,
-        "passengers_max": 2
+        "passengers_max": 2,
+        "image": "/images/tours/pilatus/pilatus.jpg",
+        "gallery": [
+            "/images/tours/pilatus/gallery-1.jpg",
+            "/images/tours/pilatus/gallery-2.jpg",
+            "/images/tours/pilatus/gallery-3.jpg",
+            "/images/tours/pilatus/gallery-4.jpg",
+            "/images/tours/pilatus/gallery-5.jpg"
+        ]
     },
     "mount_rigi": {
         "id": "mount_rigi",
         "show": true,
         "order": 5,
         "slug": "mount-rigi-experience",
-        "image": "/images/tours/rigi.jpg",
         "price_from": "CHF 1000",
         "duration_hours": 8,
-        "passengers_max": 2
+        "passengers_max": 2,
+        "image": "/images/tours/rigi/rigi.jpg",
+        "gallery": [
+            "/images/tours/rigi/gallery-1.jpg",
+            "/images/tours/rigi/gallery-2.jpg",
+            "/images/tours/rigi/gallery-3.jpg",
+            "/images/tours/rigi/gallery-4.jpg",
+            "/images/tours/rigi/gallery-5.jpg"
+        ]
     }
 }

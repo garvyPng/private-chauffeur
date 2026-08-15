@@ -1,5 +1,9 @@
 {
     "zurich": {
+        "id": "zurich",
+        "show": true,
+        "order": 1,
+        "slug": "zurich-private-experience",
         "title": "Zurich Private Experience",
         "description": "A full-day immersion into Switzerland's most cosmopolitan city — old town, lakeside promenade, scenic viewpoints and hidden gems, all at your own pace.",
         "overview": "Experience Zurich with your own private chauffeur for the entire day. Whether you're visiting for leisure or business, your driver remains at your disposal, allowing you to travel comfortably and without time pressure.",
@@ -7,30 +11,74 @@
         "route": [
             {
                 "time": "9:00",
-                "title": "Hotel Pickup",
-                "description": "Hotel pickup — Zurich city centre"
+                "title": "VIP Pickup",
+                "description": "Meet at Zurich Airport (ZRH) or your hotel lobby."
             },
             {
                 "time": "10:00",
-                "title": "Old Town",
-                "description": "Zürich Altstadt (Old Town) — Grossmünster, Lindenhügel"
+                "title": "Old Town & Lindenhof",
+                "description": "Zürich Altstadt (Old Town) — Grossmünster, Lindenhügel; scenic drive and panoramic photo stop over the Limmat River."
+            },
+            {
+                "time": "11:30",
+                "title": "Business / Leisure",
+                "description": "At your disposal for morning meetings, galleries, or walking."
+            },
+            {
+                "time": "12:30",
+                "title": "Lakeside Lunch",
+                "description": "Drop-off at a premium restaurant on the shores of Lake Zurich."
+            },
+            {
+                "time": "14:00",
+                "title": "Bahnhofstrasse Shopping",
+                "description": "Luxury shopping; chauffeur handles bags and coordinates pickups."
+            },
+            {
+                "time": "15:30",
+                "title": "Gold Coast Scenic Drive",
+                "description": "Cruise along the lake with an optional stop at Lindt Chocolate."
+            },
+            {
+                "time": "17:00",
+                "title": "Relaxed Return",
+                "description": "Smooth drive back with complimentary onboard refreshments."
             },
             {
                 "time": "18:00",
-                "title": "Return",
-                "description": "Return to hotel"
+                "title": "VIP Drop-off",
+                "description": "Return to your hotel, the airport, or a dinner venue."
             }
         ],
+        "custom_journey": {
+            "title": "Create Your Own Journey",
+            "description": "Prefer your own itinerary? Your chauffeur is completely at your disposal. Choose the places you would like to visit, adjust the schedule and enjoy Switzerland at your own pace. You can choose:",
+            "items": [
+                "Shopping in Zurich",
+                "Business meetings",
+                "Luxury restaurants",
+                "Alpine viewpoints",
+                "Lakeside villages",
+                "Photography stops",
+                "Hidden gems",
+                "Leisure travel"
+            ]
+        },
         "pickup_options": [
             "Zurich Airport",
             "Hotel",
             "Private Address"
         ],
         "duration": "Full Day",
+        "price": "FROM CHF 1000",
         "duration_hours_text": "8-9 hrs",
-        "passengers": "1-4 passengers"
+        "passengers": "1-2 passengers"
     },
     "lucerne": {
+        "id": "lucerne",
+        "show": true,
+        "order": 2,
+        "slug": "lucerne-private-experience",
         "title": "Lucerne Private Experience",
         "description": "Experience the timeless charm of Lucerne — the iconic Chapel Bridge, the shimmering lake and Alpine views.",
         "overview": "Experience the timeless charm of Lucerne — the iconic Chapel Bridge, the shimmering lake, Mount Pilatus views and medieval old town architecture.",
@@ -77,16 +125,35 @@
                 "description": "Return to your hotel, or transfer to a local dinner venue of your choice."
             }
         ],
+        "custom_journey": {
+            "title": "Create Your Own Journey",
+            "description": "Prefer your own itinerary? Your chauffeur is completely at your disposal. Choose the places you would like to visit, adjust the schedule and enjoy Switzerland at your own pace. You can choose:",
+            "items": [
+                "Old Town shopping",
+                "Business meetings",
+                "Lakeside restaurants",
+                "Mountain viewpoints",
+                "Museum visits",
+                "Photography stops",
+                "Hidden gems",
+                "Leisure travel"
+            ]
+        },
         "pickup_options": [
             "Zurich Airport",
             "Hotel",
             "Private Address"
         ],
         "duration": "Full Day",
+        "price": "FROM CHF 1000",
         "duration_hours_text": "8-9 hrs",
         "passengers": "1-2 passengers"
     },
     "lake_lucerne_scenic_drive": {
+        "id": "vierwaldstättersee",
+        "show": true,
+        "order": 3,
+        "slug": "lake-lucerne-scenic-drive",
         "title": "Lake Lucerne Scenic Drive (Vierwaldstättersee)",
         "description": "Enjoy a breathtaking journey around Lake Lucerne, with crystal-clear waters, charming lakeside villages, dramatic mountain scenery and panoramic viewpoints.",
         "overview": "Enjoy a breathtaking journey around Lake Lucerne, with crystal-clear waters, charming lakeside villages, dramatic mountain scenery and panoramic viewpoints creating an unforgettable Swiss experience.",
@@ -143,16 +210,35 @@
                 "description": "Return to your hotel, or transfer to a local dinner venue of your choice."
             }
         ],
+        "custom_journey": {
+            "title": "Create Your Own Journey",
+            "description": "Prefer your own itinerary? Your chauffeur is completely at your disposal. Choose the places you would like to visit, adjust the schedule and enjoy Switzerland at your own pace. You can choose:",
+            "items": [
+                "Lakeside villages",
+                "Mountain viewpoints",
+                "Photography stops",
+                "Boutique towns",
+                "Waterfront restaurants",
+                "Hiking trailheads",
+                "Hidden gems",
+                "Leisure travel"
+            ]
+        },
         "pickup_options": [
             "Zurich Airport",
             "Hotel",
             "Private Address"
         ],
         "duration": "Full Day",
+        "price": "FROM CHF 1000",
         "duration_hours_text": "8-9 hrs",
         "passengers": "1-2 passengers"
     },
     "mount_pilatus": {
+        "id": "pilatus",
+        "show": true,
+        "order": 4,
+        "slug": "mount-pilatus-experience",
         "title": "Mount Pilatus Experience",
         "description": "Experience the majestic beauty of Mount Pilatus, where dramatic mountain landscapes, panoramic viewpoints and unforgettable Alpine scenery await.",
         "overview": "Experience the majestic beauty of Mount Pilatus, where dramatic mountain landscapes, panoramic viewpoints and unforgettable Alpine scenery await. The journey by car is an experience in itself.",
@@ -194,16 +280,35 @@
                 "description": "A relaxing drive along the shores of Lake Lucerne, in complete comfort."
             }
         ],
+        "custom_journey": {
+            "title": "Create Your Own Journey",
+            "description": "Prefer your own itinerary? Your chauffeur is completely at your disposal. Choose the places you would like to visit, adjust the schedule and enjoy Switzerland at your own pace. You can choose:",
+            "items": [
+                "Summit viewpoints",
+                "Dragon Path walk",
+                "Alpine dining",
+                "Cable car routes",
+                "Lakeside villages",
+                "Photography stops",
+                "Hidden gems",
+                "Leisure travel"
+            ]
+        },
         "pickup_options": [
             "Zurich Airport",
             "Hotel",
             "Private Address"
         ],
         "duration": "Full Day",
+        "price": "FROM CHF 1000",
         "duration_hours_text": "8-9 hrs",
         "passengers": "1-2 passengers"
     },
     "mount_rigi": {
+        "id": "rigi",
+        "show": true,
+        "order": 5,
+        "slug": "mount-rigi-experience",
         "title": "Mount Rigi Experience",
         "description": "Discover the \"Queen of the Mountains\" with breathtaking panoramic views over the Swiss Alps and surrounding lakes.",
         "overview": "Discover the \"Queen of the Mountains\" with breathtaking panoramic views over the Swiss Alps and surrounding lakes. Enjoy charming villages, scenic viewpoints and an unforgettable alpine atmosphere.",
@@ -250,12 +355,27 @@
                 "description": "A relaxing drive back along the shores of Lake Zug and Lake Lucerne."
             }
         ],
+        "custom_journey": {
+            "title": "Create Your Own Journey",
+            "description": "Prefer your own itinerary? Your chauffeur is completely at your disposal. Choose the places you would like to visit, adjust the schedule and enjoy Switzerland at your own pace. You can choose:",
+            "items": [
+                "Summit panoramas",
+                "Village walks",
+                "Alpine dining",
+                "Cogwheel routes",
+                "Lakeside stops",
+                "Photography stops",
+                "Hidden gems",
+                "Leisure travel"
+            ]
+        },
         "pickup_options": [
             "Zurich Airport",
             "Hotel",
             "Private Address"
         ],
         "duration": "Full Day",
+        "price": "FROM CHF 1000",
         "duration_hours_text": "8-9 hrs",
         "passengers": "1-2 passengers"
     }

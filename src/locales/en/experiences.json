@@ -1,0 +1,22 @@
+{
+    "hero": {
+        "title": "Curated Private",
+        "title-secondary": "Swiss Journeys",
+        "eyebrow": "The Experience",
+        "text": "Each experience is crafted to deliver an exceptional, entirely private encounter with Switzerland's most extraordinary destinations."
+    },
+    "experiences_list": {
+        "eyebrow": "All Experiences",
+        "title": "Our Private Journeys",
+        "search_placeholder": "Search experiences...",
+        "no_results": "No experiences match your search."
+    },
+    "experience_overview": {
+        "overview_label": "Overview",
+        "signature_route_label": "Signature Route",
+        "create_journey": "Create Your Own Journey",
+        "or_label": "Or",
+        "pickup_options_label": "Pickup Options",
+        "other_choices_label": "Other Popular Choices"
+    }
+}

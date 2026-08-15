@@ -4,7 +4,7 @@ import SectionTitle from '../../../../components/ui/SectionTitle';
 import { GoldButton } from '../../../../components/ui/GoldButton';
 
 export const ReserveCtaSection = () => {
-    const { t } = useTranslation('common');
+    const { t } = useTranslation('home');
 
     return (
         <section className='relative left-1/2 right-1/2 mt-16 w-screen -translate-x-1/2'>

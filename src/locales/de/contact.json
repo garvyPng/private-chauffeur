@@ -1,0 +1,37 @@
+{
+    "eyebrow": "Kontaktieren Sie uns",
+    "title": "Planen Sie Ihre",
+    "title_accent": "Private Reise",
+    "description": "Kontaktieren Sie uns, um Ihre Reiseroute zu besprechen, eine Frage zu stellen oder ein individuelles Angebot anzufragen. Unser Team antwortet innerhalb weniger Stunden.",
+    "info": {
+        "title": "Kontaktdaten",
+        "phone_label": "Telefon",
+        "phone": "+49 76 767 76 76",
+        "phone_link": "+497676776",
+        "email_label": "E-Mail",
+        "email": "info@private.chauffeur",
+        "whatsapp_label": "WhatsApp",
+        "whatsapp_link": "https://wa.me/497676776",
+        "hours_label": "Verfügbarkeit",
+        "hours": "Täglich, 07:00 – 22:00 Uhr",
+        "areas_label": "Einsatzgebiete",
+        "areas": "Zürich, Luzern & die Schweizer Alpen"
+    },
+    "form": {
+        "title": "Nachricht senden",
+        "name_label": "Vollständiger Name",
+        "name_placeholder": "Ihr Name",
+        "email_label": "E-Mail",
+        "email_placeholder": "sie@beispiel.com",
+        "phone_label": "Telefon",
+        "phone_placeholder": "+41 00 000 00 00",
+        "date_label": "Wunschtermin",
+        "message_label": "Nachricht",
+        "message_placeholder": "Erzählen Sie uns von Ihrer Reise, der Gruppengrösse und etwaigen Sonderwünschen...",
+        "submit_label": "Nachricht senden",
+        "sending_label": "Wird gesendet...",
+        "success_title": "Nachricht gesendet",
+        "success_text": "Vielen Dank — wir melden uns in Kürze, um die Details Ihrer Reise zu bestätigen.",
+        "error_text": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+    }
+}

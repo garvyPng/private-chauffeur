@@ -10,6 +10,8 @@ import { ExperiencesPage } from '../pages/Experiences';
 import AppLayout from './AppLayout';
 import { useEffect } from 'react';
 import { ExperienceOverviewPage } from '../pages/ExperienceOverview';
+import { VehiclePage } from '../pages/Vehicle';
+import { ContactPage } from '../pages/Contact';
 
 const ScrollToTop = () => {
     const { pathname } = useLocation();
@@ -35,6 +37,8 @@ export default function App() {
                         path='experiences/:tour'
                         element={<ExperienceOverviewPage />}
                     />
+                    <Route path='vehicle' element={<VehiclePage />} />
+                    <Route path='contact' element={<ContactPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

@@ -5,7 +5,8 @@
     },
     "interior": {
         "eyebrow": "Interior",
-        "title": "A Sanctuary on Four Wheels",
+        "title": "A Sanctuary on",
+        "title_accent": " Four Wheels",
         "description": "Step inside and the world softens. Supple leather surrounds you, ambient lighting sets the mood, and the silence of a well-tuned cabin invites you to simply enjoy the journey.",
         "features": [
             "Handstitched Nappa Leather Seats",
@@ -19,32 +20,32 @@
     "specifications": {
         "eyebrow": "Specifications",
         "title": "Vehicle Details",
-        "items": {
-            "model": {
+        "specs": [
+            {
                 "label": "Model",
                 "value": "Mercedes-Benz E-Class"
             },
-            "passengers": {
+            {
                 "label": "Passengers",
                 "value": "Up to 2 guests"
             },
-            "luggage": {
+            {
                 "label": "Luggage",
                 "value": "2-3 large suitcases"
             },
-            "climate": {
+            {
                 "label": "Climate",
                 "value": "Dual-zone automatic"
             },
-            "upholstery": {
+            {
                 "label": "Upholstery",
                 "value": "Premium Nappa leather"
             },
-            "wifi": {
+            {
                 "label": "Wi-Fi",
                 "value": "Complimentary on board"
             }
-        }
+        ]
     },
     "cta": {
         "text": "Experience the Mercedes-Benz difference for yourself.",

@@ -1,0 +1,37 @@
+{
+    "eyebrow": "Get in Touch",
+    "title": "Plan Your",
+    "title_accent": "Private Journey",
+    "description": "Reach out to discuss your itinerary, ask a question, or request a custom quote. Our team responds within a few hours.",
+    "info": {
+        "title": "Contact Details",
+        "phone_label": "Phone",
+        "phone": "+49 76 767 76 76",
+        "phone_link": "+497676776",
+        "email_label": "Email",
+        "email": "info@private.chauffeur",
+        "whatsapp_label": "WhatsApp",
+        "whatsapp_link": "https://wa.me/497676776",
+        "hours_label": "Availability",
+        "hours": "Daily, 07:00 – 22:00",
+        "areas_label": "Service Areas",
+        "areas": "Zurich, Lucerne & the Swiss Alps"
+    },
+    "form": {
+        "title": "Send a Message",
+        "name_label": "Full Name",
+        "name_placeholder": "Your name",
+        "email_label": "Email",
+        "email_placeholder": "you@example.com",
+        "phone_label": "Phone",
+        "phone_placeholder": "+41 00 000 00 00",
+        "date_label": "Preferred Date",
+        "message_label": "Message",
+        "message_placeholder": "Tell us about your trip, group size, and any special requests...",
+        "submit_label": "Send Message",
+        "sending_label": "Sending...",
+        "success_title": "Message Sent",
+        "success_text": "Thank you — we'll be in touch shortly to confirm the details of your journey.",
+        "error_text": "Something went wrong. Please try again or contact us directly."
+    }
+}

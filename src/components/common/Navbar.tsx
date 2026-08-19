@@ -17,9 +17,9 @@ export default function Navbar() {
         const pathWithoutLang = location.pathname.replace(/^\/(en|de)/, '');
         navigate(`/${newLang}/${pathWithoutLang}`);
     };
-    const scrollTo = (id: string) => {
-        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-    };
+    // const scrollTo = (id: string) => {
+    //     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    // };
 
     return (
         <header className='absolute top-0 left-0 w-full z-50 text-white'>

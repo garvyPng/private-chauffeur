@@ -1,31 +1,24 @@
-import { useState, type FormEvent } from 'react';
+// import { useState, type FormEvent } from 'react';
 import { useTranslation } from 'react-i18next';
-import {
-    Phone,
-    Mail,
-    MessageCircle,
-    Clock,
-    MapPin,
-    CheckCircle2,
-} from 'lucide-react';
+import { Phone, Mail, MessageCircle, Clock, MapPin } from 'lucide-react';
 import { Container } from '../../../../components/layout/Container';
-import { GoldButton } from '../../../../components/ui/GoldButton';
+// import { GoldButton } from '../../../../components/ui/GoldButton';
 
-interface FormState {
-    name: string;
-    email: string;
-    phone: string;
-    date: string;
-    message: string;
-}
+// interface FormState {
+//     name: string;
+//     email: string;
+//     phone: string;
+//     date: string;
+//     message: string;
+// }
 
-const initialForm: FormState = {
-    name: '',
-    email: '',
-    phone: '',
-    date: '',
-    message: '',
-};
+// const initialForm: FormState = {
+//     name: '',
+//     email: '',
+//     phone: '',
+//     date: '',
+//     message: '',
+// };
 
 function ContactInfoItem({
     icon: Icon,
@@ -72,38 +65,38 @@ function ContactInfoItem({
 
 export const FormSection = () => {
     const { t } = useTranslation('contact');
-    const [form, setForm] = useState<FormState>(initialForm);
-    const [status, setStatus] = useState<
-        'idle' | 'sending' | 'success' | 'error'
-    >('idle');
+    // const [form, setForm] = useState<FormState>(initialForm);
+    // const [status, setStatus] = useState<
+    //     'idle' | 'sending' | 'success' | 'error'
+    // >('idle');
 
-    const handleChange = (
-        e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-    ) => {
-        setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-    };
+    // const handleChange = (
+    //     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+    // ) => {
+    //     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+    // };
 
-    const handleSubmit = async (e: FormEvent) => {
-        e.preventDefault();
-        setStatus('sending');
+    // const handleSubmit = async (e: FormEvent) => {
+    //     e.preventDefault();
+    //     setStatus('sending');
 
-        try {
-            // TODO: заменить на реальный вызов API/email-сервиса
-            await new Promise((resolve) => setTimeout(resolve, 1000));
-            setStatus('success');
-            setForm(initialForm);
-        } catch {
-            setStatus('error');
-        }
-    };
+    //     try {
+    //         // TODO: заменить на реальный вызов API/email-сервиса
+    //         await new Promise((resolve) => setTimeout(resolve, 1000));
+    //         setStatus('success');
+    //         setForm(initialForm);
+    //     } catch {
+    //         setStatus('error');
+    //     }
+    // };
 
     return (
         <>
             <section className='-mt-12 md:-mt-16'>
                 <Container>
-                    <div className='grid grid-cols-1 gap-8 lg:grid-cols-[1fr_1.4fr] lg:gap-6'>
+                    <div className='flex items-center justify-center'>
                         {/* Contact Info Card */}
-                        <div className='rounded-md border border-neutral-200 bg-white p-8 md:p-10'>
+                        <div className='rounded-md border border-neutral-200 bg-white  p-8 md:p-10'>
                             <h2 className='font-serif text-xl text-neutral-900'>
                                 {t('info.title')}
                             </h2>
@@ -141,7 +134,7 @@ export const FormSection = () => {
                         </div>
 
                         {/* Form */}
-                        <div className='rounded-md border border-neutral-200 bg-white p-8 md:p-10'>
+                        {/* <div className='rounded-md border border-neutral-200 bg-white p-8 md:p-10'>
                             <h2 className='font-serif text-xl text-neutral-900'>
                                 {t('form.title')}
                             </h2>
@@ -285,7 +278,7 @@ export const FormSection = () => {
                                     </GoldButton>
                                 </form>
                             )}
-                        </div>
+                        </div> */}
                     </div>
                 </Container>
             </section>

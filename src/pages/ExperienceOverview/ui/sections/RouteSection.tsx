@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Container } from '../../../../components/layout/Container';
 import { GoldButton } from '../../../../components/ui/GoldButton';
+import { useLocalizedPath } from '../../../../hooks/useLocalizedPath';
 
 interface RouteStep {
     time: string;
@@ -17,6 +18,7 @@ interface CustomJourney {
 export const RouteSection = ({ tourId }: { tourId: string }) => {
     const { t } = useTranslation(['common', 'experiences', 'tours']);
 
+    const localize = useLocalizedPath();
     const route = t(`${tourId}.route`, {
         ns: 'tours',
         returnObjects: true,
@@ -120,7 +122,11 @@ export const RouteSection = ({ tourId }: { tourId: string }) => {
                     </div>
                 </div>
 
-                <GoldButton variant='filled' className='mt-8'>
+                <GoldButton
+                    href={localize(t('/contact'))}
+                    variant='filled'
+                    className='mt-8'
+                >
                     {t('buttons.book', { ns: 'common' })}
                 </GoldButton>
             </Container>

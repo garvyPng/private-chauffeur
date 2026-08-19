@@ -2,9 +2,11 @@ import { Container } from '../../../../components/layout/Container';
 import { useTranslation } from 'react-i18next';
 import { GoldButton } from '../../../../components/ui/GoldButton';
 import SwissIcon from '../../../../components/ui/SwissIcon';
-
+import { useLocalizedPath } from '../../../../hooks/useLocalizedPath';
 export const HeroSection = () => {
     const { t } = useTranslation('home');
+    const localize = useLocalizedPath();
+
     return (
         <section id='home' className='relative h-screen min-h-[600px]'>
             <div className='absolute inset-0 z-0 overflow-hidden'>
@@ -41,17 +43,13 @@ export const HeroSection = () => {
                             <GoldButton
                                 className='z-20 w-full justify-center sm:w-auto'
                                 variant='filled'
-                                onClick={() => {
-                                    window.scrollTo(0, 0);
-                                }}
+                                href={localize('/contact')}
                             >
                                 {t('hero.btn-book')}
                             </GoldButton>
                             <GoldButton
                                 className='z-20 w-full justify-center sm:w-auto'
-                                onClick={() => {
-                                    window.scrollTo(0, 0);
-                                }}
+                                href={localize('/expiriences')}
                             >
                                 {t('hero.btn-explore')}
                             </GoldButton>

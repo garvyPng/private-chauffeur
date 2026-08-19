@@ -20,7 +20,7 @@ export const HeroSection = () => {
                     }}
                 />
             </div>
-            <Container className='relative flex flex-row items-end justify-between z-10 h-full pb-20 space-x-10'>
+            <Container className='relative flex flex-col md:flex-row items-start md:items-end justify-end md:justify-between z-10 h-full pb-20 md:space-x-10 space-y-5 md:space-y-0'>
                 <div className='font-heading text-white'>
                     <p>{t('hero.eyebrow')}</p>
                     <h1 className='lg:w-[500px] sm:w-auto text-2xl leading-tight tracking-tight text-white sm:text-3xl md:text-5xl lg:text-7xl'>

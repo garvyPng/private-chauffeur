@@ -15,7 +15,7 @@ export const VehicleCtaSection = () => {
                 </p>
 
                 <GoldButton
-                    href={localize(t('cta.link'))}
+                    href={localize(t('/contact'))}
                     variant='filled'
                     className='mt-6'
                 >

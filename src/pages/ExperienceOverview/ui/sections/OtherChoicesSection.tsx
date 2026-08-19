@@ -52,7 +52,7 @@ export const OtherChoicesSection = ({
     return (
         <section className='mt-16'>
             <Container>
-                <div className='flex items-center justify-between'>
+                <div className='flex flex-col md:flex-row items-start md:items-center justify-between'>
                     <h2 className='font-serif text-2xl text-neutral-900'>
                         {t('experience_overview.other_choices_label', {
                             ns: 'experiences',

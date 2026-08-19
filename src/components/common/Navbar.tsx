@@ -225,36 +225,40 @@ export default function Navbar() {
                                     </svg>
                                 </button>
                                 <div className='flex flex-col items-center gap-4 text-lg'>
-                                    <button
-                                        onClick={() => scrollTo('home')}
+                                    <Link
+                                        to={localize('/')}
+                                        onClick={() => setIsOpen(false)}
                                         className='group py-3 border-b border-white/10 text-center font-light tracking-wide transition-all duration-300 hover:text-[#d7b46a]'
                                     >
                                         {t('nav.home')}
-                                    </button>
+                                    </Link>
 
-                                    <button
-                                        onClick={() => scrollTo('experiences')}
+                                    <Link
+                                        to={localize('/experiences')}
+                                        onClick={() => setIsOpen(false)}
                                         className='group py-3 border-b border-white/10 text-center font-light tracking-wide transition-all duration-300 hover:text-[#d7b46a]'
                                     >
                                         {t('nav.experiences')}
-                                    </button>
+                                    </Link>
 
-                                    <button
-                                        onClick={() => scrollTo('vehicle')}
+                                    <Link
+                                        to={localize('/vehicle')}
+                                        onClick={() => setIsOpen(false)}
                                         className='group py-3 border-b border-white/10 text-center font-light tracking-wide transition-all duration-300 hover:text-[#d7b46a]'
                                     >
                                         {t('nav.vehicle')}
-                                    </button>
+                                    </Link>
 
-                                    <button
-                                        onClick={() => scrollTo('contact')}
+                                    <Link
+                                        to={localize('/contact')}
+                                        onClick={() => setIsOpen(false)}
                                         className='group py-3 border-b border-white/10 text-center font-light tracking-wide transition-all duration-300 hover:text-[#d7b46a]'
                                     >
                                         {t('nav.contact')}
-                                    </button>
+                                    </Link>
 
                                     <a
-                                        href=''
+                                        href={localize('/contact')}
                                         className='mt-10 inline-flex items-center justify-center rounded-full border border-[#d7b46a] px-10 py-4 uppercase tracking-[0.25em] text-sm font-medium transition-all duration-300 hover:bg-[#d7b46a] hover:text-black'
                                     >
                                         Book now

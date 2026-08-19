@@ -32,10 +32,6 @@
                     "url": "/vehicle"
                 },
                 {
-                    "label": "About Us",
-                    "url": "/about"
-                },
-                {
                     "label": "Contact",
                     "url": "/contact"
                 }

@@ -2,9 +2,11 @@ import { useTranslation } from 'react-i18next';
 import { Container } from '../../../../components/layout/Container';
 import SectionTitle from '../../../../components/ui/SectionTitle';
 import { GoldButton } from '../../../../components/ui/GoldButton';
+import { useLocalizedPath } from '../../../../hooks/useLocalizedPath';
 
 export const ReserveCtaSection = () => {
     const { t } = useTranslation('home');
+    const localize = useLocalizedPath();
 
     return (
         <section className='relative left-1/2 right-1/2 mt-16 w-screen -translate-x-1/2'>
@@ -34,7 +36,7 @@ export const ReserveCtaSection = () => {
                     </p>
 
                     <GoldButton
-                        href={t('reserve_cta.cta.link')}
+                        href={localize('/contact')}
                         variant='filled'
                         className='mt-8'
                     >

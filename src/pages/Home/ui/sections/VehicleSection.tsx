@@ -2,9 +2,11 @@ import { useTranslation } from 'react-i18next';
 import { Container } from '../../../../components/layout/Container';
 import SectionTitle from '../../../../components/ui/SectionTitle';
 import i18n from '../../../../i18n/config';
+import { useLocalizedPath } from '../../../../hooks/useLocalizedPath';
 
 export const VehicleSection = () => {
     const { t } = useTranslation('home');
+    const localize = useLocalizedPath();
     // const features = t('vehicle.features', { returnObjects: true }) as string[];
     const items = i18n.getResource(
         i18n.language,
@@ -51,7 +53,7 @@ export const VehicleSection = () => {
                         </ul>
 
                         <a
-                            href={t('vehicle.cta.link')}
+                            href={localize('/vehicle')}
                             className='group mt-10 inline-flex w-fit items-center justify-center border border-[#C9A15B]/60 px-8 py-4 text-xs font-medium tracking-[0.2em] text-[#C9A15B] transition-colors duration-300 hover:border-[#C9A15B] hover:bg-[#C9A15B]/10'
                         >
                             {t('vehicle.cta.label').toUpperCase()}

@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Phone, Mail, MessageCircle } from 'lucide-react';
 import { Container } from '../layout/Container';
+import { useLocalizedPath } from '../../hooks/useLocalizedPath';
 interface FooterLink {
     label: string;
     url: string;
@@ -8,6 +9,7 @@ interface FooterLink {
 
 export const Footer = () => {
     const { t } = useTranslation('common');
+    const localize = useLocalizedPath();
     const navLinks = t('footer.navigation.links', {
         returnObjects: true,
     }) as FooterLink[];
@@ -49,7 +51,7 @@ export const Footer = () => {
                                 {navLinks.map((link) => (
                                     <li key={link.label}>
                                         <a
-                                            href={link.url}
+                                            href={localize(link.url)}
                                             className='text-sm text-neutral-300 transition-colors duration-200 hover:text-[#C9A15B]'
                                         >
                                             {link.label}

@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Container } from '../layout/Container';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocalizedPath } from '../../hooks/useLocalizedPath';
 
 export default function Navbar() {
@@ -10,6 +10,18 @@ export default function Navbar() {
     const { t } = useTranslation('common');
     const localize = useLocalizedPath();
     const [isOpen, setIsOpen] = useState(false);
+
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+
+        return () => {
+            document.body.style.overflow = 'hidden';
+        };
+    }, [isOpen]);
 
     const changeLang = (newLang: string) => {
         if (newLang === lang) return;
@@ -169,18 +181,6 @@ export default function Navbar() {
                         </a>
                     </div>
                     <div className='flex lg:hidden items-center gap-5'>
-                        <div className='flex gap-2 text-sm'>
-                            {['en', 'de'].map((l) => (
-                                <button
-                                    key={l}
-                                    onClick={() => changeLang(l)}
-                                    className={lang === l ? 'underline' : ''}
-                                >
-                                    {l.toUpperCase()}
-                                </button>
-                            ))}
-                        </div>
-
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             className='relative w-8 h-8 flex flex-col justify-center items-center'
@@ -339,6 +339,21 @@ export default function Navbar() {
                                                 </g>
                                             </svg>
                                         </a>
+                                    </div>
+                                    <div className='flex gap-2 text-sm'>
+                                        {['en', 'de'].map((l) => (
+                                            <button
+                                                key={l}
+                                                onClick={() => changeLang(l)}
+                                                className={
+                                                    lang === l
+                                                        ? 'underline'
+                                                        : ''
+                                                }
+                                            >
+                                                {l.toUpperCase()}
+                                            </button>
+                                        ))}
                                     </div>
                                 </div>
                             </div>

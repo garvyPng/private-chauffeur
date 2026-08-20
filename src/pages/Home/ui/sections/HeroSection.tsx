@@ -49,7 +49,7 @@ export const HeroSection = () => {
                             </GoldButton>
                             <GoldButton
                                 className='z-20 w-full justify-center sm:w-auto'
-                                href={localize('/expiriences')}
+                                href={localize('/experiences')}
                             >
                                 {t('hero.btn-explore')}
                             </GoldButton>
